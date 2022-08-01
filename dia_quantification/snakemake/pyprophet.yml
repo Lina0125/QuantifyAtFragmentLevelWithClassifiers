@@ -1,0 +1,17 @@
+libraries:
+  spectral_library: '/srv/data1/li7186lu/data/libraries/220126_oswag_library.optimized.decoy.pqp'
+  rt_library: '/srv/data1/li7186lu/data/libraries/220126_oswag_rt_peptides.optimized.pqp'
+
+base_file_paths:
+  mzml: '/srv/data1/li7186lu/data/yeast_benchmark/dia/mzml'
+  osw: '/srv/data1/li7186lu/data/yeast_benchmark/osw'
+  pyprophet: '/srv/data1/li7186lu/data/yeast_benchmark/baseline0601'
+
+swath_windows_file: '/srv/data1/li7186lu/data/swath_windows/bruduer_HFX_44win.txt'
+
+model:
+  classifier_file: '/srv/data1/li7186lu/scripts/quantification/models/manually_filtered_classifier.pkl'
+  scaler_file: '/srv/data1/li7186lu/scripts/quantification/models/standardscaler.pkl'
+
+merged_matirx_path: '/srv/data1/li7186lu/data/Project/data/quantification_0303/results/results/lnl_quantMatrix.csv'
+

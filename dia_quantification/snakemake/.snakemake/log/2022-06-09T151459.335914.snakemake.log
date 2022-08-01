@@ -1,0 +1,32 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 50
+Rules claiming more threads will be scaled down.
+Job stats:
+job      count    min threads    max threads
+-----  -------  -------------  -------------
+all          1              1              1
+merge        1             50             50
+total        2              1             50
+
+Select jobs to execute...
+
+[Thu Jun  9 15:14:59 2022]
+rule merge:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_226.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_235.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_190.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_244.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_253.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_199.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_208.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_181.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_217.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_172.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_234.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_243.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_252.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_225.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_198.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_216.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_207.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_189.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_180.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_251.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_197.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_242.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_233.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_171.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_224.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_206.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_215.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_179.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_188.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_241.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_232.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_196.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_250.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_214.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_223.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_170.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_205.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_178.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_187.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_195.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_231.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_249.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_240.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_169.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_186.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_204.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_222.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_213.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_248.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_239.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_177.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_230.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_203.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_185.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_194.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_212.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_221.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_176.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_168.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore/AAS_P2009_167.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/results/mean/gscore_mean.csv
+    jobid: 1
+    threads: 50
+    resources: tmpdir=/tmp
+
+[Thu Jun  9 15:14:59 2022]
+Error in rule merge:
+    jobid: 1
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/results/mean/gscore_mean.csv
+    shell:
+        python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/global_quantify.py -i /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/gscore -t /srv/data1/li7186lu/data/yeast_benchmark/baseline/models/model_global.osw -o /srv/data1/li7186lu/data/yeast_benchmark/classifier/results/mean/gscore_mean.csv -m mean -p1 0.01 -p1 0.01
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /srv/data1/li7186lu/scripts/quantification/snakemake/.snakemake/log/2022-06-09T151459.335914.snakemake.log

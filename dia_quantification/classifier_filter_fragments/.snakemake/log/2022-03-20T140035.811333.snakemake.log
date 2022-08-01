@@ -1,0 +1,219 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 12
+Rules claiming more threads will be scaled down.
+Job stats:
+job       count    min threads    max threads
+------  -------  -------------  -------------
+all           1              1              1
+filter       60              1              1
+total        61              1              1
+
+Select jobs to execute...
+
+[Sun Mar 20 14:00:36 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_172.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_172.tsv
+    jobid: 76
+    wildcards: sample=AAS_P2009_172
+    resources: tmpdir=/tmp
+
+
+[Sun Mar 20 14:00:36 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_217.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_217.tsv
+    jobid: 166
+    wildcards: sample=AAS_P2009_217
+    resources: tmpdir=/tmp
+
+
+[Sun Mar 20 14:00:36 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_244.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_244.tsv
+    jobid: 220
+    wildcards: sample=AAS_P2009_244
+    resources: tmpdir=/tmp
+
+
+[Sun Mar 20 14:00:36 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_199.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_199.tsv
+    jobid: 130
+    wildcards: sample=AAS_P2009_199
+    resources: tmpdir=/tmp
+
+
+[Sun Mar 20 14:00:36 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_243.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_243.tsv
+    jobid: 217
+    wildcards: sample=AAS_P2009_243
+    resources: tmpdir=/tmp
+
+
+[Sun Mar 20 14:00:36 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_226.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_226.tsv
+    jobid: 184
+    wildcards: sample=AAS_P2009_226
+    resources: tmpdir=/tmp
+
+
+[Sun Mar 20 14:00:36 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_208.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_208.tsv
+    jobid: 148
+    wildcards: sample=AAS_P2009_208
+    resources: tmpdir=/tmp
+
+
+[Sun Mar 20 14:00:36 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_190.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_190.tsv
+    jobid: 112
+    wildcards: sample=AAS_P2009_190
+    resources: tmpdir=/tmp
+
+
+[Sun Mar 20 14:00:36 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_234.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_234.tsv
+    jobid: 199
+    wildcards: sample=AAS_P2009_234
+    resources: tmpdir=/tmp
+
+
+[Sun Mar 20 14:00:36 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_181.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_181.tsv
+    jobid: 94
+    wildcards: sample=AAS_P2009_181
+    resources: tmpdir=/tmp
+
+
+[Sun Mar 20 14:00:36 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_235.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_235.tsv
+    jobid: 202
+    wildcards: sample=AAS_P2009_235
+    resources: tmpdir=/tmp
+
+
+[Sun Mar 20 14:00:36 2022]
+[Sun Mar 20 14:00:36 2022]
+Error in rule filter:
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_253.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_253.tsv
+    jobid: 238
+    wildcards: sample=AAS_P2009_253
+    resources: tmpdir=/tmp
+    jobid: 76
+[Sun Mar 20 14:00:36 2022]
+
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_172.tsv
+[Sun Mar 20 14:00:36 2022]
+Error in rule filter:
+    shell:
+        python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/filter.py -i /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_172.tsv -c 0.01 -m top1 -o /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_172.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+Error in rule filter:
+    jobid: 166
+
+    jobid: 220
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_217.tsv
+[Sun Mar 20 14:00:36 2022]
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_244.tsv
+    shell:
+        python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/filter.py -i /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_217.tsv -c 0.01 -m top1 -o /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_217.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+[Sun Mar 20 14:00:36 2022]
+Error in rule filter:
+    shell:
+        python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/filter.py -i /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_244.tsv -c 0.01 -m top1 -o /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_244.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule filter:
+    jobid: 130
+
+    jobid: 217
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_199.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_243.tsv
+[Sun Mar 20 14:00:36 2022]
+    shell:
+        python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/filter.py -i /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_199.tsv -c 0.01 -m top1 -o /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_199.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    shell:
+        python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/filter.py -i /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_243.tsv -c 0.01 -m top1 -o /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_243.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+Error in rule filter:
+
+
+    jobid: 184
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_226.tsv
+    shell:
+        python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/filter.py -i /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_226.tsv -c 0.01 -m top1 -o /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_226.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Sun Mar 20 14:00:36 2022]
+Error in rule filter:
+    jobid: 148
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_208.tsv
+    shell:
+        python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/filter.py -i /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_208.tsv -c 0.01 -m top1 -o /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_208.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Sun Mar 20 14:00:36 2022]
+Error in rule filter:
+    jobid: 112
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_190.tsv
+    shell:
+        python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/filter.py -i /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_190.tsv -c 0.01 -m top1 -o /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_190.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Sun Mar 20 14:00:36 2022]
+Error in rule filter:
+    jobid: 199
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_234.tsv
+    shell:
+        python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/filter.py -i /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_234.tsv -c 0.01 -m top1 -o /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_234.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Sun Mar 20 14:00:36 2022]
+Error in rule filter:
+    jobid: 94
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_181.tsv
+    shell:
+        python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/filter.py -i /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_181.tsv -c 0.01 -m top1 -o /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_181.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Sun Mar 20 14:00:36 2022]
+Error in rule filter:
+    jobid: 202
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_235.tsv
+    shell:
+        python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/filter.py -i /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_235.tsv -c 0.01 -m top1 -o /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_235.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Sun Mar 20 14:00:36 2022]
+Error in rule filter:
+    jobid: 238
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_253.tsv
+    shell:
+        python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/filter.py -i /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_253.tsv -c 0.01 -m top1 -o /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_253.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/.snakemake/log/2022-03-20T140035.811333.snakemake.log

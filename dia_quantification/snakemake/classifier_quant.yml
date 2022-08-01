@@ -1,0 +1,21 @@
+libraries:
+  spectral_library: '/srv/data1/li7186lu/data/libraries/220126_oswag_library.optimized.decoy.pqp'
+  rt_library: '/srv/data1/li7186lu/data/libraries/220126_oswag_rt_peptides.optimized.pqp'
+
+swath_windows_file: '/srv/data1/li7186lu/data/yeast_benchmark/swath_windows/bruduer_HFX_44win.txt'
+
+classifier_model:
+  classifier_file: '/srv/data1/li7186lu/data/classifier/models/lnl.pkl'
+  scaler_file: '/srv/data1/li7186lu/data/classifier/models/standardscaler.pkl'
+
+base_file_paths:
+  mzml: '/srv/data1/li7186lu/data/yeast_benchmark/dia/mzml'
+  osw: '/srv/data1/li7186lu/data/yeast_benchmark/osw'
+  pyprophet: '/srv/data1/li7186lu/data/yeast_benchmark/baseline'
+
+classifier_results:
+  feeding_tsv: '/srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data'
+  scored: '/srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/lnl'
+  global_method: 'sum'
+  merged_matirx: '/srv/data1/li7186lu/data/yeast_benchmark/classifier/results/sum/lnl_sum.csv'
+

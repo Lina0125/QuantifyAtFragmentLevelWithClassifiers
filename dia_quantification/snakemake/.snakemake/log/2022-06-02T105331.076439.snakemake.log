@@ -1,0 +1,473 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 50
+Rules claiming more threads will be scaled down.
+Job stats:
+job                     count    min threads    max threads
+--------------------  -------  -------------  -------------
+all                         1              1              1
+fragment_qvalue            60              1              1
+merge                       1             50             50
+preprocess_merge_osw       60              1              1
+total                     122              1             50
+
+Select jobs to execute...
+
+[Thu Jun  2 10:53:31 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/models/modeled/AAS_P2009_215.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data0602/AAS_P2009_215.tsv
+    jobid: 142
+    wildcards: sample=AAS_P2009_215
+    resources: tmpdir=/tmp
+
+
+[Thu Jun  2 10:53:31 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/models/modeled/AAS_P2009_196.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data0602/AAS_P2009_196.tsv
+    jobid: 157
+    wildcards: sample=AAS_P2009_196
+    resources: tmpdir=/tmp
+
+
+[Thu Jun  2 10:53:31 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/models/modeled/AAS_P2009_208.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data0602/AAS_P2009_208.tsv
+    jobid: 82
+    wildcards: sample=AAS_P2009_208
+    resources: tmpdir=/tmp
+
+
+[Thu Jun  2 10:53:31 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/models/modeled/AAS_P2009_205.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data0602/AAS_P2009_205.tsv
+    jobid: 172
+    wildcards: sample=AAS_P2009_205
+    resources: tmpdir=/tmp
+
+
+[Thu Jun  2 10:53:31 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/models/modeled/AAS_P2009_222.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data0602/AAS_P2009_222.tsv
+    jobid: 202
+    wildcards: sample=AAS_P2009_222
+    resources: tmpdir=/tmp
+
+
+[Thu Jun  2 10:53:31 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/models/modeled/AAS_P2009_207.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data0602/AAS_P2009_207.tsv
+    jobid: 112
+    wildcards: sample=AAS_P2009_207
+    resources: tmpdir=/tmp
+
+
+[Thu Jun  2 10:53:31 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/models/modeled/AAS_P2009_242.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data0602/AAS_P2009_242.tsv
+    jobid: 127
+    wildcards: sample=AAS_P2009_242
+    resources: tmpdir=/tmp
+
+
+[Thu Jun  2 10:53:31 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/models/modeled/AAS_P2009_249.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data0602/AAS_P2009_249.tsv
+    jobid: 187
+    wildcards: sample=AAS_P2009_249
+    resources: tmpdir=/tmp
+
+
+[Thu Jun  2 10:53:31 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/models/modeled/AAS_P2009_235.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data0602/AAS_P2009_235.tsv
+    jobid: 67
+    wildcards: sample=AAS_P2009_235
+    resources: tmpdir=/tmp
+
+
+[Thu Jun  2 10:53:31 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/models/modeled/AAS_P2009_243.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data0602/AAS_P2009_243.tsv
+    jobid: 97
+    wildcards: sample=AAS_P2009_243
+    resources: tmpdir=/tmp
+
+
+[Thu Jun  2 10:53:31 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/models/modeled/AAS_P2009_172.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data0602/AAS_P2009_172.tsv
+    jobid: 91
+    wildcards: sample=AAS_P2009_172
+    resources: tmpdir=/tmp
+
+
+[Thu Jun  2 10:53:31 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/models/modeled/AAS_P2009_251.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data0602/AAS_P2009_251.tsv
+    jobid: 121
+    wildcards: sample=AAS_P2009_251
+    resources: tmpdir=/tmp
+
+
+[Thu Jun  2 10:53:31 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/models/modeled/AAS_P2009_224.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data0602/AAS_P2009_224.tsv
+    jobid: 136
+    wildcards: sample=AAS_P2009_224
+    resources: tmpdir=/tmp
+
+
+[Thu Jun  2 10:53:31 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/models/modeled/AAS_P2009_241.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data0602/AAS_P2009_241.tsv
+    jobid: 151
+    wildcards: sample=AAS_P2009_241
+    resources: tmpdir=/tmp
+
+
+[Thu Jun  2 10:53:31 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/models/modeled/AAS_P2009_223.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data0602/AAS_P2009_223.tsv
+    jobid: 166
+    wildcards: sample=AAS_P2009_223
+    resources: tmpdir=/tmp
+
+
+[Thu Jun  2 10:53:31 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/models/modeled/AAS_P2009_186.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data0602/AAS_P2009_186.tsv
+    jobid: 196
+    wildcards: sample=AAS_P2009_186
+    resources: tmpdir=/tmp
+
+
+[Thu Jun  2 10:53:31 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/models/modeled/AAS_P2009_253.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data0602/AAS_P2009_253.tsv
+    jobid: 76
+    wildcards: sample=AAS_P2009_253
+    resources: tmpdir=/tmp
+
+
+[Thu Jun  2 10:53:31 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/models/modeled/AAS_P2009_198.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data0602/AAS_P2009_198.tsv
+    jobid: 106
+    wildcards: sample=AAS_P2009_198
+    resources: tmpdir=/tmp
+
+
+[Thu Jun  2 10:53:31 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/models/modeled/AAS_P2009_195.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data0602/AAS_P2009_195.tsv
+    jobid: 181
+    wildcards: sample=AAS_P2009_195
+    resources: tmpdir=/tmp
+
+
+[Thu Jun  2 10:53:31 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/models/modeled/AAS_P2009_239.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data0602/AAS_P2009_239.tsv
+    jobid: 211
+    wildcards: sample=AAS_P2009_239
+    resources: tmpdir=/tmp
+
+
+[Thu Jun  2 10:53:31 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/models/modeled/AAS_P2009_226.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data0602/AAS_P2009_226.tsv
+    jobid: 3
+    wildcards: sample=AAS_P2009_226
+    resources: tmpdir=/tmp
+
+
+[Thu Jun  2 10:53:31 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/models/modeled/AAS_P2009_181.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data0602/AAS_P2009_181.tsv
+    jobid: 85
+    wildcards: sample=AAS_P2009_181
+    resources: tmpdir=/tmp
+
+
+[Thu Jun  2 10:53:31 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/models/modeled/AAS_P2009_189.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data0602/AAS_P2009_189.tsv
+    jobid: 115
+    wildcards: sample=AAS_P2009_189
+    resources: tmpdir=/tmp
+
+
+[Thu Jun  2 10:53:31 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/models/modeled/AAS_P2009_233.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data0602/AAS_P2009_233.tsv
+    jobid: 130
+    wildcards: sample=AAS_P2009_233
+    resources: tmpdir=/tmp
+
+
+[Thu Jun  2 10:53:31 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/models/modeled/AAS_P2009_179.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data0602/AAS_P2009_179.tsv
+    jobid: 145
+    wildcards: sample=AAS_P2009_179
+    resources: tmpdir=/tmp
+
+
+[Thu Jun  2 10:53:31 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/models/modeled/AAS_P2009_250.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data0602/AAS_P2009_250.tsv
+    jobid: 160
+    wildcards: sample=AAS_P2009_250
+    resources: tmpdir=/tmp
+
+
+[Thu Jun  2 10:53:31 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/models/modeled/AAS_P2009_240.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data0602/AAS_P2009_240.tsv
+    jobid: 190
+    wildcards: sample=AAS_P2009_240
+    resources: tmpdir=/tmp
+
+
+[Thu Jun  2 10:53:31 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/models/modeled/AAS_P2009_252.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data0602/AAS_P2009_252.tsv
+    jobid: 100
+    wildcards: sample=AAS_P2009_252
+    resources: tmpdir=/tmp
+
+
+[Thu Jun  2 10:53:31 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/models/modeled/AAS_P2009_213.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data0602/AAS_P2009_213.tsv
+    jobid: 205
+    wildcards: sample=AAS_P2009_213
+    resources: tmpdir=/tmp
+
+
+[Thu Jun  2 10:53:31 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/models/modeled/AAS_P2009_190.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data0602/AAS_P2009_190.tsv
+    jobid: 70
+    wildcards: sample=AAS_P2009_190
+    resources: tmpdir=/tmp
+
+
+[Thu Jun  2 10:53:31 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/models/modeled/AAS_P2009_234.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data0602/AAS_P2009_234.tsv
+    jobid: 94
+    wildcards: sample=AAS_P2009_234
+    resources: tmpdir=/tmp
+
+
+[Thu Jun  2 10:53:31 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/models/modeled/AAS_P2009_197.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data0602/AAS_P2009_197.tsv
+    jobid: 124
+    wildcards: sample=AAS_P2009_197
+    resources: tmpdir=/tmp
+
+
+[Thu Jun  2 10:53:31 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/models/modeled/AAS_P2009_206.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data0602/AAS_P2009_206.tsv
+    jobid: 139
+    wildcards: sample=AAS_P2009_206
+    resources: tmpdir=/tmp
+
+
+[Thu Jun  2 10:53:31 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/models/modeled/AAS_P2009_232.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data0602/AAS_P2009_232.tsv
+    jobid: 154
+    wildcards: sample=AAS_P2009_232
+    resources: tmpdir=/tmp
+
+
+[Thu Jun  2 10:53:31 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/models/modeled/AAS_P2009_170.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data0602/AAS_P2009_170.tsv
+    jobid: 169
+    wildcards: sample=AAS_P2009_170
+    resources: tmpdir=/tmp
+
+
+[Thu Jun  2 10:53:31 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/models/modeled/AAS_P2009_204.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data0602/AAS_P2009_204.tsv
+    jobid: 199
+    wildcards: sample=AAS_P2009_204
+    resources: tmpdir=/tmp
+
+
+[Thu Jun  2 10:53:31 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/models/modeled/AAS_P2009_199.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data0602/AAS_P2009_199.tsv
+    jobid: 79
+    wildcards: sample=AAS_P2009_199
+    resources: tmpdir=/tmp
+
+
+[Thu Jun  2 10:53:31 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/models/modeled/AAS_P2009_216.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data0602/AAS_P2009_216.tsv
+    jobid: 109
+    wildcards: sample=AAS_P2009_216
+    resources: tmpdir=/tmp
+
+
+[Thu Jun  2 10:53:31 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/models/modeled/AAS_P2009_231.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data0602/AAS_P2009_231.tsv
+    jobid: 184
+    wildcards: sample=AAS_P2009_231
+    resources: tmpdir=/tmp
+
+
+[Thu Jun  2 10:53:31 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/models/modeled/AAS_P2009_177.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data0602/AAS_P2009_177.tsv
+    jobid: 214
+    wildcards: sample=AAS_P2009_177
+    resources: tmpdir=/tmp
+
+
+[Thu Jun  2 10:53:31 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/models/modeled/AAS_P2009_187.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data0602/AAS_P2009_187.tsv
+    jobid: 178
+    wildcards: sample=AAS_P2009_187
+    resources: tmpdir=/tmp
+
+
+[Thu Jun  2 10:53:31 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/models/modeled/AAS_P2009_214.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data0602/AAS_P2009_214.tsv
+    jobid: 163
+    wildcards: sample=AAS_P2009_214
+    resources: tmpdir=/tmp
+
+
+[Thu Jun  2 10:53:31 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/models/modeled/AAS_P2009_169.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data0602/AAS_P2009_169.tsv
+    jobid: 193
+    wildcards: sample=AAS_P2009_169
+    resources: tmpdir=/tmp
+
+
+[Thu Jun  2 10:53:31 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/models/modeled/AAS_P2009_217.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data0602/AAS_P2009_217.tsv
+    jobid: 88
+    wildcards: sample=AAS_P2009_217
+    resources: tmpdir=/tmp
+
+
+[Thu Jun  2 10:53:31 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/models/modeled/AAS_P2009_180.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data0602/AAS_P2009_180.tsv
+    jobid: 118
+    wildcards: sample=AAS_P2009_180
+    resources: tmpdir=/tmp
+
+
+[Thu Jun  2 10:53:31 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/models/modeled/AAS_P2009_171.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data0602/AAS_P2009_171.tsv
+    jobid: 133
+    wildcards: sample=AAS_P2009_171
+    resources: tmpdir=/tmp
+
+
+[Thu Jun  2 10:53:31 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/models/modeled/AAS_P2009_188.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data0602/AAS_P2009_188.tsv
+    jobid: 148
+    wildcards: sample=AAS_P2009_188
+    resources: tmpdir=/tmp
+
+
+[Thu Jun  2 10:53:31 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/models/modeled/AAS_P2009_244.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data0602/AAS_P2009_244.tsv
+    jobid: 73
+    wildcards: sample=AAS_P2009_244
+    resources: tmpdir=/tmp
+
+
+[Thu Jun  2 10:53:31 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/models/modeled/AAS_P2009_225.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data0602/AAS_P2009_225.tsv
+    jobid: 103
+    wildcards: sample=AAS_P2009_225
+    resources: tmpdir=/tmp
+
+
+[Thu Jun  2 10:53:31 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/models/modeled/AAS_P2009_178.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data0602/AAS_P2009_178.tsv
+    jobid: 175
+    wildcards: sample=AAS_P2009_178
+    resources: tmpdir=/tmp
+
+Waiting at most 5 seconds for missing files.
+MissingOutputException in line 113 of /srv/data1/li7186lu/scripts/quantification/snakemake/classifier_quant.smk:
+Job Missing files after 5 seconds:
+/srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data0602/AAS_P2009_169.tsv
+This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait.
+Job id: 193 completed successfully, but some output files are missing. 193
+Waiting at most 5 seconds for missing files.
+Terminating processes on user request, this might take some time.
+Complete log: /srv/data1/li7186lu/scripts/quantification/snakemake/.snakemake/log/2022-06-02T105331.076439.snakemake.log

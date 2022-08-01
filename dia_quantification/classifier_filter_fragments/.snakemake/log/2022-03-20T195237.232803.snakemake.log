@@ -1,0 +1,792 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 12
+Rules claiming more threads will be scaled down.
+Job stats:
+job       count    min threads    max threads
+------  -------  -------------  -------------
+all           1              1              1
+filter       60              1              1
+total        61              1              1
+
+Select jobs to execute...
+
+[Sun Mar 20 19:52:37 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_199.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_199.tsv
+    jobid: 130
+    wildcards: sample=AAS_P2009_199
+    resources: tmpdir=/tmp
+
+
+[Sun Mar 20 19:52:37 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_172.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_172.tsv
+    jobid: 76
+    wildcards: sample=AAS_P2009_172
+    resources: tmpdir=/tmp
+
+
+[Sun Mar 20 19:52:37 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_217.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_217.tsv
+    jobid: 166
+    wildcards: sample=AAS_P2009_217
+    resources: tmpdir=/tmp
+
+
+[Sun Mar 20 19:52:37 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_244.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_244.tsv
+    jobid: 220
+    wildcards: sample=AAS_P2009_244
+    resources: tmpdir=/tmp
+
+
+[Sun Mar 20 19:52:37 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_235.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_235.tsv
+    jobid: 202
+    wildcards: sample=AAS_P2009_235
+    resources: tmpdir=/tmp
+
+
+[Sun Mar 20 19:52:37 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_190.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_190.tsv
+    jobid: 112
+    wildcards: sample=AAS_P2009_190
+    resources: tmpdir=/tmp
+
+
+[Sun Mar 20 19:52:37 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_234.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_234.tsv
+    jobid: 199
+    wildcards: sample=AAS_P2009_234
+    resources: tmpdir=/tmp
+
+
+[Sun Mar 20 19:52:37 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_181.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_181.tsv
+    jobid: 94
+    wildcards: sample=AAS_P2009_181
+    resources: tmpdir=/tmp
+
+
+[Sun Mar 20 19:52:37 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_226.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_226.tsv
+    jobid: 184
+    wildcards: sample=AAS_P2009_226
+    resources: tmpdir=/tmp
+
+
+[Sun Mar 20 19:52:37 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_243.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_243.tsv
+    jobid: 217
+    wildcards: sample=AAS_P2009_243
+    resources: tmpdir=/tmp
+
+
+[Sun Mar 20 19:52:37 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_253.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_253.tsv
+    jobid: 238
+    wildcards: sample=AAS_P2009_253
+    resources: tmpdir=/tmp
+
+
+[Sun Mar 20 19:52:37 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_208.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_208.tsv
+    jobid: 148
+    wildcards: sample=AAS_P2009_208
+    resources: tmpdir=/tmp
+
+[Sun Mar 20 19:52:42 2022]
+Finished job 220.
+1 of 61 steps (2%) done
+Select jobs to execute...
+
+[Sun Mar 20 19:52:42 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_216.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_216.tsv
+    jobid: 163
+    wildcards: sample=AAS_P2009_216
+    resources: tmpdir=/tmp
+
+[Sun Mar 20 19:52:42 2022]
+Finished job 202.
+2 of 61 steps (3%) done
+Select jobs to execute...
+
+[Sun Mar 20 19:52:42 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_189.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_189.tsv
+    jobid: 109
+    wildcards: sample=AAS_P2009_189
+    resources: tmpdir=/tmp
+
+[Sun Mar 20 19:52:42 2022]
+Finished job 166.
+3 of 61 steps (5%) done
+Select jobs to execute...
+
+[Sun Mar 20 19:52:42 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_225.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_225.tsv
+    jobid: 181
+    wildcards: sample=AAS_P2009_225
+    resources: tmpdir=/tmp
+
+[Sun Mar 20 19:52:43 2022]
+Finished job 112.
+4 of 61 steps (7%) done
+Select jobs to execute...
+
+[Sun Mar 20 19:52:43 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_180.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_180.tsv
+    jobid: 91
+    wildcards: sample=AAS_P2009_180
+    resources: tmpdir=/tmp
+
+[Sun Mar 20 19:52:43 2022]
+Finished job 148.
+5 of 61 steps (8%) done
+Select jobs to execute...
+
+[Sun Mar 20 19:52:43 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_198.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_198.tsv
+    jobid: 127
+    wildcards: sample=AAS_P2009_198
+    resources: tmpdir=/tmp
+
+[Sun Mar 20 19:52:44 2022]
+Finished job 130.
+6 of 61 steps (10%) done
+Select jobs to execute...
+
+[Sun Mar 20 19:52:44 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_252.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_252.tsv
+    jobid: 235
+    wildcards: sample=AAS_P2009_252
+    resources: tmpdir=/tmp
+
+[Sun Mar 20 19:52:44 2022]
+Finished job 76.
+7 of 61 steps (11%) done
+Select jobs to execute...
+
+[Sun Mar 20 19:52:44 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_171.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_171.tsv
+    jobid: 73
+    wildcards: sample=AAS_P2009_171
+    resources: tmpdir=/tmp
+
+[Sun Mar 20 19:52:44 2022]
+Finished job 94.
+8 of 61 steps (13%) done
+Select jobs to execute...
+
+[Sun Mar 20 19:52:44 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_197.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_197.tsv
+    jobid: 124
+    wildcards: sample=AAS_P2009_197
+    resources: tmpdir=/tmp
+
+[Sun Mar 20 19:52:44 2022]
+Finished job 238.
+9 of 61 steps (15%) done
+Select jobs to execute...
+
+[Sun Mar 20 19:52:44 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_207.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_207.tsv
+    jobid: 145
+    wildcards: sample=AAS_P2009_207
+    resources: tmpdir=/tmp
+
+[Sun Mar 20 19:52:44 2022]
+Finished job 199.
+10 of 61 steps (16%) done
+Select jobs to execute...
+
+[Sun Mar 20 19:52:44 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_242.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_242.tsv
+    jobid: 214
+    wildcards: sample=AAS_P2009_242
+    resources: tmpdir=/tmp
+
+[Sun Mar 20 19:52:44 2022]
+Finished job 184.
+11 of 61 steps (18%) done
+Select jobs to execute...
+
+[Sun Mar 20 19:52:44 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_233.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_233.tsv
+    jobid: 196
+    wildcards: sample=AAS_P2009_233
+    resources: tmpdir=/tmp
+
+[Sun Mar 20 19:52:45 2022]
+Finished job 217.
+12 of 61 steps (20%) done
+Select jobs to execute...
+
+[Sun Mar 20 19:52:45 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_251.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_251.tsv
+    jobid: 232
+    wildcards: sample=AAS_P2009_251
+    resources: tmpdir=/tmp
+
+[Sun Mar 20 19:52:49 2022]
+Finished job 163.
+13 of 61 steps (21%) done
+Select jobs to execute...
+
+[Sun Mar 20 19:52:49 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_188.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_188.tsv
+    jobid: 106
+    wildcards: sample=AAS_P2009_188
+    resources: tmpdir=/tmp
+
+[Sun Mar 20 19:52:49 2022]
+Finished job 181.
+14 of 61 steps (23%) done
+Select jobs to execute...
+
+[Sun Mar 20 19:52:49 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_215.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_215.tsv
+    jobid: 160
+    wildcards: sample=AAS_P2009_215
+    resources: tmpdir=/tmp
+
+[Sun Mar 20 19:52:50 2022]
+Finished job 109.
+15 of 61 steps (25%) done
+Select jobs to execute...
+
+[Sun Mar 20 19:52:50 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_224.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_224.tsv
+    jobid: 178
+    wildcards: sample=AAS_P2009_224
+    resources: tmpdir=/tmp
+
+[Sun Mar 20 19:52:50 2022]
+Finished job 91.
+16 of 61 steps (26%) done
+Select jobs to execute...
+
+[Sun Mar 20 19:52:50 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_179.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_179.tsv
+    jobid: 88
+    wildcards: sample=AAS_P2009_179
+    resources: tmpdir=/tmp
+
+[Sun Mar 20 19:52:51 2022]
+Finished job 127.
+17 of 61 steps (28%) done
+Select jobs to execute...
+
+[Sun Mar 20 19:52:51 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_170.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_170.tsv
+    jobid: 70
+    wildcards: sample=AAS_P2009_170
+    resources: tmpdir=/tmp
+
+[Sun Mar 20 19:52:51 2022]
+Finished job 235.
+18 of 61 steps (30%) done
+Select jobs to execute...
+
+[Sun Mar 20 19:52:51 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_206.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_206.tsv
+    jobid: 142
+    wildcards: sample=AAS_P2009_206
+    resources: tmpdir=/tmp
+
+[Sun Mar 20 19:52:51 2022]
+Finished job 145.
+19 of 61 steps (31%) done
+Select jobs to execute...
+
+[Sun Mar 20 19:52:51 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_196.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_196.tsv
+    jobid: 121
+    wildcards: sample=AAS_P2009_196
+    resources: tmpdir=/tmp
+
+[Sun Mar 20 19:52:51 2022]
+Finished job 124.
+20 of 61 steps (33%) done
+Select jobs to execute...
+
+[Sun Mar 20 19:52:51 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_232.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_232.tsv
+    jobid: 193
+    wildcards: sample=AAS_P2009_232
+    resources: tmpdir=/tmp
+
+[Sun Mar 20 19:52:51 2022]
+Finished job 196.
+21 of 61 steps (34%) done
+Select jobs to execute...
+
+[Sun Mar 20 19:52:51 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_250.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_250.tsv
+    jobid: 229
+    wildcards: sample=AAS_P2009_250
+    resources: tmpdir=/tmp
+
+[Sun Mar 20 19:52:52 2022]
+Finished job 73.
+22 of 61 steps (36%) done
+Select jobs to execute...
+
+[Sun Mar 20 19:52:52 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_214.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_214.tsv
+    jobid: 157
+    wildcards: sample=AAS_P2009_214
+    resources: tmpdir=/tmp
+
+[Sun Mar 20 19:52:52 2022]
+Finished job 214.
+23 of 61 steps (38%) done
+Select jobs to execute...
+
+[Sun Mar 20 19:52:52 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_205.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_205.tsv
+    jobid: 139
+    wildcards: sample=AAS_P2009_205
+    resources: tmpdir=/tmp
+
+[Sun Mar 20 19:52:52 2022]
+Finished job 232.
+24 of 61 steps (39%) done
+Select jobs to execute...
+
+[Sun Mar 20 19:52:52 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_241.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_241.tsv
+    jobid: 211
+    wildcards: sample=AAS_P2009_241
+    resources: tmpdir=/tmp
+
+[Sun Mar 20 19:52:56 2022]
+Finished job 106.
+25 of 61 steps (41%) done
+Select jobs to execute...
+
+[Sun Mar 20 19:52:56 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_223.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_223.tsv
+    jobid: 175
+    wildcards: sample=AAS_P2009_223
+    resources: tmpdir=/tmp
+
+[Sun Mar 20 19:52:57 2022]
+Finished job 88.
+26 of 61 steps (43%) done
+Select jobs to execute...
+
+[Sun Mar 20 19:52:57 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_178.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_178.tsv
+    jobid: 85
+    wildcards: sample=AAS_P2009_178
+    resources: tmpdir=/tmp
+
+[Sun Mar 20 19:52:57 2022]
+Finished job 160.
+27 of 61 steps (44%) done
+Select jobs to execute...
+
+[Sun Mar 20 19:52:57 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_169.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_169.tsv
+    jobid: 67
+    wildcards: sample=AAS_P2009_169
+    resources: tmpdir=/tmp
+
+[Sun Mar 20 19:52:57 2022]
+Finished job 178.
+28 of 61 steps (46%) done
+Select jobs to execute...
+
+[Sun Mar 20 19:52:57 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_187.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_187.tsv
+    jobid: 103
+    wildcards: sample=AAS_P2009_187
+    resources: tmpdir=/tmp
+
+[Sun Mar 20 19:52:57 2022]
+Finished job 142.
+29 of 61 steps (48%) done
+Select jobs to execute...
+
+[Sun Mar 20 19:52:57 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_195.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_195.tsv
+    jobid: 118
+    wildcards: sample=AAS_P2009_195
+    resources: tmpdir=/tmp
+
+[Sun Mar 20 19:52:58 2022]
+Finished job 121.
+30 of 61 steps (49%) done
+Select jobs to execute...
+
+[Sun Mar 20 19:52:58 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_186.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_186.tsv
+    jobid: 100
+    wildcards: sample=AAS_P2009_186
+    resources: tmpdir=/tmp
+
+[Sun Mar 20 19:52:58 2022]
+Finished job 229.
+31 of 61 steps (51%) done
+Select jobs to execute...
+
+[Sun Mar 20 19:52:58 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_249.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_249.tsv
+    jobid: 226
+    wildcards: sample=AAS_P2009_249
+    resources: tmpdir=/tmp
+
+[Sun Mar 20 19:52:58 2022]
+Finished job 193.
+32 of 61 steps (52%) done
+Select jobs to execute...
+
+[Sun Mar 20 19:52:58 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_231.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_231.tsv
+    jobid: 190
+    wildcards: sample=AAS_P2009_231
+    resources: tmpdir=/tmp
+
+[Sun Mar 20 19:52:58 2022]
+Finished job 70.
+33 of 61 steps (54%) done
+Select jobs to execute...
+
+[Sun Mar 20 19:52:58 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_213.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_213.tsv
+    jobid: 154
+    wildcards: sample=AAS_P2009_213
+    resources: tmpdir=/tmp
+
+[Sun Mar 20 19:52:59 2022]
+Finished job 211.
+34 of 61 steps (56%) done
+Select jobs to execute...
+
+[Sun Mar 20 19:52:59 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_240.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_240.tsv
+    jobid: 208
+    wildcards: sample=AAS_P2009_240
+    resources: tmpdir=/tmp
+
+[Sun Mar 20 19:52:59 2022]
+Finished job 157.
+35 of 61 steps (57%) done
+Select jobs to execute...
+
+[Sun Mar 20 19:52:59 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_222.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_222.tsv
+    jobid: 172
+    wildcards: sample=AAS_P2009_222
+    resources: tmpdir=/tmp
+
+[Sun Mar 20 19:52:59 2022]
+Finished job 139.
+36 of 61 steps (59%) done
+Select jobs to execute...
+
+[Sun Mar 20 19:52:59 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_177.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_177.tsv
+    jobid: 82
+    wildcards: sample=AAS_P2009_177
+    resources: tmpdir=/tmp
+
+[Sun Mar 20 19:53:02 2022]
+Finished job 103.
+37 of 61 steps (61%) done
+Select jobs to execute...
+
+[Sun Mar 20 19:53:02 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_203.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_203.tsv
+    jobid: 133
+    wildcards: sample=AAS_P2009_203
+    resources: tmpdir=/tmp
+
+[Sun Mar 20 19:53:03 2022]
+Finished job 67.
+38 of 61 steps (62%) done
+Select jobs to execute...
+
+[Sun Mar 20 19:53:03 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_185.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_185.tsv
+    jobid: 97
+    wildcards: sample=AAS_P2009_185
+    resources: tmpdir=/tmp
+
+[Sun Mar 20 19:53:03 2022]
+Finished job 175.
+39 of 61 steps (64%) done
+Select jobs to execute...
+
+[Sun Mar 20 19:53:03 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_239.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_239.tsv
+    jobid: 205
+    wildcards: sample=AAS_P2009_239
+    resources: tmpdir=/tmp
+
+[Sun Mar 20 19:53:03 2022]
+Finished job 85.
+40 of 61 steps (66%) done
+Select jobs to execute...
+
+[Sun Mar 20 19:53:03 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_194.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_194.tsv
+    jobid: 115
+    wildcards: sample=AAS_P2009_194
+    resources: tmpdir=/tmp
+
+[Sun Mar 20 19:53:03 2022]
+Finished job 118.
+41 of 61 steps (67%) done
+Select jobs to execute...
+
+[Sun Mar 20 19:53:03 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_248.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_248.tsv
+    jobid: 223
+    wildcards: sample=AAS_P2009_248
+    resources: tmpdir=/tmp
+
+[Sun Mar 20 19:53:04 2022]
+Finished job 226.
+42 of 61 steps (69%) done
+Select jobs to execute...
+
+[Sun Mar 20 19:53:04 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_230.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_230.tsv
+    jobid: 187
+    wildcards: sample=AAS_P2009_230
+    resources: tmpdir=/tmp
+
+[Sun Mar 20 19:53:04 2022]
+Finished job 100.
+43 of 61 steps (70%) done
+Select jobs to execute...
+
+[Sun Mar 20 19:53:04 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_212.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_212.tsv
+    jobid: 151
+    wildcards: sample=AAS_P2009_212
+    resources: tmpdir=/tmp
+
+[Sun Mar 20 19:53:04 2022]
+Finished job 154.
+44 of 61 steps (72%) done
+Select jobs to execute...
+
+[Sun Mar 20 19:53:04 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_204.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_204.tsv
+    jobid: 136
+    wildcards: sample=AAS_P2009_204
+    resources: tmpdir=/tmp
+
+[Sun Mar 20 19:53:04 2022]
+Finished job 190.
+45 of 61 steps (74%) done
+Select jobs to execute...
+
+[Sun Mar 20 19:53:04 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_168.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_168.tsv
+    jobid: 64
+    wildcards: sample=AAS_P2009_168
+    resources: tmpdir=/tmp
+
+[Sun Mar 20 19:53:05 2022]
+Finished job 172.
+46 of 61 steps (75%) done
+Select jobs to execute...
+
+[Sun Mar 20 19:53:05 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_221.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_221.tsv
+    jobid: 169
+    wildcards: sample=AAS_P2009_221
+    resources: tmpdir=/tmp
+
+[Sun Mar 20 19:53:05 2022]
+Finished job 82.
+47 of 61 steps (77%) done
+Select jobs to execute...
+
+[Sun Mar 20 19:53:05 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_176.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_176.tsv
+    jobid: 79
+    wildcards: sample=AAS_P2009_176
+    resources: tmpdir=/tmp
+
+[Sun Mar 20 19:53:05 2022]
+Finished job 208.
+48 of 61 steps (79%) done
+Select jobs to execute...
+
+[Sun Mar 20 19:53:05 2022]
+rule filter:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/qvalue/AAS_P2009_167.tsv
+    output: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_167.tsv
+    jobid: 1
+    wildcards: sample=AAS_P2009_167
+    resources: tmpdir=/tmp
+
+[Sun Mar 20 19:53:08 2022]
+Finished job 133.
+49 of 61 steps (80%) done
+[Sun Mar 20 19:53:08 2022]
+Finished job 136.
+50 of 61 steps (82%) done
+[Sun Mar 20 19:53:09 2022]
+Finished job 115.
+51 of 61 steps (84%) done
+[Sun Mar 20 19:53:09 2022]
+Finished job 205.
+52 of 61 steps (85%) done
+[Sun Mar 20 19:53:09 2022]
+Finished job 97.
+53 of 61 steps (87%) done
+[Sun Mar 20 19:53:10 2022]
+Finished job 223.
+54 of 61 steps (89%) done
+[Sun Mar 20 19:53:10 2022]
+Finished job 187.
+55 of 61 steps (90%) done
+[Sun Mar 20 19:53:11 2022]
+Finished job 1.
+56 of 61 steps (92%) done
+[Sun Mar 20 19:53:11 2022]
+Finished job 64.
+57 of 61 steps (93%) done
+[Sun Mar 20 19:53:11 2022]
+Finished job 151.
+58 of 61 steps (95%) done
+[Sun Mar 20 19:53:11 2022]
+Finished job 79.
+59 of 61 steps (97%) done
+[Sun Mar 20 19:53:12 2022]
+Finished job 169.
+60 of 61 steps (98%) done
+Select jobs to execute...
+
+[Sun Mar 20 19:53:12 2022]
+localrule all:
+    input: /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_167.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_168.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_169.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_170.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_171.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_172.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_176.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_177.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_178.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_179.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_180.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_181.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_185.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_186.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_187.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_188.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_189.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_190.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_194.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_195.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_196.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_197.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_198.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_199.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_203.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_204.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_205.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_206.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_207.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_208.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_212.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_213.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_214.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_215.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_216.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_217.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_221.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_222.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_223.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_224.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_225.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_226.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_230.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_231.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_232.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_233.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_234.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_235.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_239.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_240.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_241.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_242.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_243.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_244.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_248.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_249.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_250.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_251.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_252.tsv, /srv/data1/li7186lu/data/Project/quantification_0315/filtered/AAS_P2009_253.tsv
+    jobid: 0
+    resources: tmpdir=/tmp
+
+[Sun Mar 20 19:53:12 2022]
+Finished job 0.
+61 of 61 steps (100%) done
+Complete log: /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/.snakemake/log/2022-03-20T195237.232803.snakemake.log

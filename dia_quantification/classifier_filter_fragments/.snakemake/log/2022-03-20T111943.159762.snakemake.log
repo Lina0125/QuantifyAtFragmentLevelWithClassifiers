@@ -1,0 +1,4 @@
+Building DAG of jobs...
+MissingInputException in line 6 of /srv/data1/li7186lu/data/Project/pipeline/classifier_0315.smk:
+Missing input files for rule all:
+/srv/data1/li7186lu/data/Project/quantification_0315/results/lnl_quantMatrix.csv

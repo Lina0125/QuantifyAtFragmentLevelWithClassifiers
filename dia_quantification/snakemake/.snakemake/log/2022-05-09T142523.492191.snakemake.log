@@ -1,0 +1,36 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 12
+Rules claiming more threads will be scaled down.
+Job stats:
+job      count    min threads    max threads
+-----  -------  -------------  -------------
+all          1              1              1
+merge        1             12             12
+total        2              1             12
+
+Select jobs to execute...
+
+[Mon May  9 14:25:23 2022]
+rule merge:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_226.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_235.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_190.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_244.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_253.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_199.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_208.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_181.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_217.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_172.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_234.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_243.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_252.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_225.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_198.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_216.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_207.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_189.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_180.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_251.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_197.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_242.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_233.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_171.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_224.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_206.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_215.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_179.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_188.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_241.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_232.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_196.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_250.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_214.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_223.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_170.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_205.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_178.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_187.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_195.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_231.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_249.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_240.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_169.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_186.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_204.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_222.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_213.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_248.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_239.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_177.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_230.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_203.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_185.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_194.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_212.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_221.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_176.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_168.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/qcutoff/qvalue/AAS_P2009_167.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/results/gscore_top2.csv
+    jobid: 1
+    threads: 12
+    resources: tmpdir=/tmp
+
+[Mon May  9 14:27:16 2022]
+Finished job 1.
+1 of 2 steps (50%) done
+Select jobs to execute...
+
+[Mon May  9 14:27:16 2022]
+localrule all:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/top2/results/gscore_top2.csv
+    jobid: 0
+    resources: tmpdir=/tmp
+
+[Mon May  9 14:27:16 2022]
+Finished job 0.
+2 of 2 steps (100%) done
+Complete log: /srv/data1/li7186lu/scripts/quantification/snakemake/.snakemake/log/2022-05-09T142523.492191.snakemake.log

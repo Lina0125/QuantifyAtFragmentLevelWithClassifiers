@@ -1,0 +1,868 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 50
+Rules claiming more threads will be scaled down.
+Singularity containers: ignored
+Job stats:
+job                    count    min threads    max threads
+-------------------  -------  -------------  -------------
+all                        1              1              1
+pyprophet_learn            1             50             50
+pyprophet_merge            1              1              1
+pyprophet_subsample       60              1              1
+total                     63              1             50
+
+Select jobs to execute...
+
+[Wed Jun  1 13:11:03 2022]
+rule pyprophet_subsample:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_186.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_186.osws
+    jobid: 29
+    wildcards: sample=AAS_P2009_186
+    resources: tmpdir=/tmp
+
+
+[Wed Jun  1 13:11:03 2022]
+rule pyprophet_subsample:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_231.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_231.osws
+    jobid: 89
+    wildcards: sample=AAS_P2009_231
+    resources: tmpdir=/tmp
+
+
+[Wed Jun  1 13:11:03 2022]
+rule pyprophet_subsample:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_207.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_207.osws
+    jobid: 59
+    wildcards: sample=AAS_P2009_207
+    resources: tmpdir=/tmp
+
+
+[Wed Jun  1 13:11:03 2022]
+rule pyprophet_subsample:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_179.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_179.osws
+    jobid: 21
+    wildcards: sample=AAS_P2009_179
+    resources: tmpdir=/tmp
+
+
+[Wed Jun  1 13:11:03 2022]
+rule pyprophet_subsample:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_224.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_224.osws
+    jobid: 81
+    wildcards: sample=AAS_P2009_224
+    resources: tmpdir=/tmp
+
+
+[Wed Jun  1 13:11:03 2022]
+rule pyprophet_subsample:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_252.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_252.osws
+    jobid: 119
+    wildcards: sample=AAS_P2009_252
+    resources: tmpdir=/tmp
+
+
+[Wed Jun  1 13:11:03 2022]
+rule pyprophet_subsample:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_169.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_169.osws
+    jobid: 7
+    wildcards: sample=AAS_P2009_169
+    resources: tmpdir=/tmp
+
+
+[Wed Jun  1 13:11:03 2022]
+rule pyprophet_subsample:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_190.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_190.osws
+    jobid: 37
+    wildcards: sample=AAS_P2009_190
+    resources: tmpdir=/tmp
+
+
+[Wed Jun  1 13:11:03 2022]
+rule pyprophet_subsample:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_197.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_197.osws
+    jobid: 45
+    wildcards: sample=AAS_P2009_197
+    resources: tmpdir=/tmp
+
+
+[Wed Jun  1 13:11:03 2022]
+rule pyprophet_subsample:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_214.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_214.osws
+    jobid: 67
+    wildcards: sample=AAS_P2009_214
+    resources: tmpdir=/tmp
+
+
+[Wed Jun  1 13:11:03 2022]
+rule pyprophet_subsample:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_235.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_235.osws
+    jobid: 97
+    wildcards: sample=AAS_P2009_235
+    resources: tmpdir=/tmp
+
+
+[Wed Jun  1 13:11:03 2022]
+rule pyprophet_subsample:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_242.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_242.osws
+    jobid: 105
+    wildcards: sample=AAS_P2009_242
+    resources: tmpdir=/tmp
+
+
+[Wed Jun  1 13:11:03 2022]
+rule pyprophet_subsample:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_180.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_180.osws
+    jobid: 23
+    wildcards: sample=AAS_P2009_180
+    resources: tmpdir=/tmp
+
+
+[Wed Jun  1 13:11:03 2022]
+rule pyprophet_subsample:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_187.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_187.osws
+    jobid: 31
+    wildcards: sample=AAS_P2009_187
+    resources: tmpdir=/tmp
+
+
+[Wed Jun  1 13:11:03 2022]
+rule pyprophet_subsample:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_204.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_204.osws
+    jobid: 53
+    wildcards: sample=AAS_P2009_204
+    resources: tmpdir=/tmp
+
+
+[Wed Jun  1 13:11:03 2022]
+rule pyprophet_subsample:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_208.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_208.osws
+    jobid: 61
+    wildcards: sample=AAS_P2009_208
+    resources: tmpdir=/tmp
+
+
+[Wed Jun  1 13:11:03 2022]
+rule pyprophet_subsample:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_225.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_225.osws
+    jobid: 83
+    wildcards: sample=AAS_P2009_225
+    resources: tmpdir=/tmp
+
+
+[Wed Jun  1 13:11:03 2022]
+rule pyprophet_subsample:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_232.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_232.osws
+    jobid: 91
+    wildcards: sample=AAS_P2009_232
+    resources: tmpdir=/tmp
+
+
+[Wed Jun  1 13:11:03 2022]
+rule pyprophet_subsample:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_249.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_249.osws
+    jobid: 113
+    wildcards: sample=AAS_P2009_249
+    resources: tmpdir=/tmp
+
+
+[Wed Jun  1 13:11:03 2022]
+rule pyprophet_subsample:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_253.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_253.osws
+    jobid: 121
+    wildcards: sample=AAS_P2009_253
+    resources: tmpdir=/tmp
+
+
+[Wed Jun  1 13:11:03 2022]
+rule pyprophet_subsample:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_170.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_170.osws
+    jobid: 9
+    wildcards: sample=AAS_P2009_170
+    resources: tmpdir=/tmp
+
+
+[Wed Jun  1 13:11:03 2022]
+rule pyprophet_subsample:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_177.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_177.osws
+    jobid: 17
+    wildcards: sample=AAS_P2009_177
+    resources: tmpdir=/tmp
+
+
+[Wed Jun  1 13:11:03 2022]
+rule pyprophet_subsample:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_198.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_198.osws
+    jobid: 47
+    wildcards: sample=AAS_P2009_198
+    resources: tmpdir=/tmp
+
+
+[Wed Jun  1 13:11:03 2022]
+rule pyprophet_subsample:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_215.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_215.osws
+    jobid: 69
+    wildcards: sample=AAS_P2009_215
+    resources: tmpdir=/tmp
+
+
+[Wed Jun  1 13:11:03 2022]
+rule pyprophet_subsample:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_222.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_222.osws
+    jobid: 77
+    wildcards: sample=AAS_P2009_222
+    resources: tmpdir=/tmp
+
+
+[Wed Jun  1 13:11:03 2022]
+rule pyprophet_subsample:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_239.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_239.osws
+    jobid: 99
+    wildcards: sample=AAS_P2009_239
+    resources: tmpdir=/tmp
+
+
+[Wed Jun  1 13:11:03 2022]
+rule pyprophet_subsample:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_243.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_243.osws
+    jobid: 107
+    wildcards: sample=AAS_P2009_243
+    resources: tmpdir=/tmp
+
+
+[Wed Jun  1 13:11:03 2022]
+rule pyprophet_subsample:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_181.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_181.osws
+    jobid: 25
+    wildcards: sample=AAS_P2009_181
+    resources: tmpdir=/tmp
+
+
+[Wed Jun  1 13:11:03 2022]
+rule pyprophet_subsample:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_188.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_188.osws
+    jobid: 33
+    wildcards: sample=AAS_P2009_188
+    resources: tmpdir=/tmp
+
+
+[Wed Jun  1 13:11:03 2022]
+rule pyprophet_subsample:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_205.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_205.osws
+    jobid: 55
+    wildcards: sample=AAS_P2009_205
+    resources: tmpdir=/tmp
+
+
+[Wed Jun  1 13:11:03 2022]
+rule pyprophet_subsample:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_226.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_226.osws
+    jobid: 85
+    wildcards: sample=AAS_P2009_226
+    resources: tmpdir=/tmp
+
+
+[Wed Jun  1 13:11:03 2022]
+rule pyprophet_subsample:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_233.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_233.osws
+    jobid: 93
+    wildcards: sample=AAS_P2009_233
+    resources: tmpdir=/tmp
+
+
+[Wed Jun  1 13:11:03 2022]
+rule pyprophet_subsample:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_250.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_250.osws
+    jobid: 115
+    wildcards: sample=AAS_P2009_250
+    resources: tmpdir=/tmp
+
+
+[Wed Jun  1 13:11:03 2022]
+rule pyprophet_subsample:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_171.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_171.osws
+    jobid: 11
+    wildcards: sample=AAS_P2009_171
+    resources: tmpdir=/tmp
+
+
+[Wed Jun  1 13:11:03 2022]
+rule pyprophet_subsample:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_178.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_178.osws
+    jobid: 19
+    wildcards: sample=AAS_P2009_178
+    resources: tmpdir=/tmp
+
+
+[Wed Jun  1 13:11:03 2022]
+rule pyprophet_subsample:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_195.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_195.osws
+    jobid: 41
+    wildcards: sample=AAS_P2009_195
+    resources: tmpdir=/tmp
+
+
+[Wed Jun  1 13:11:03 2022]
+rule pyprophet_subsample:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_199.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_199.osws
+    jobid: 49
+    wildcards: sample=AAS_P2009_199
+    resources: tmpdir=/tmp
+
+
+[Wed Jun  1 13:11:03 2022]
+rule pyprophet_subsample:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_216.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_216.osws
+    jobid: 71
+    wildcards: sample=AAS_P2009_216
+    resources: tmpdir=/tmp
+
+
+[Wed Jun  1 13:11:03 2022]
+rule pyprophet_subsample:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_223.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_223.osws
+    jobid: 79
+    wildcards: sample=AAS_P2009_223
+    resources: tmpdir=/tmp
+
+
+[Wed Jun  1 13:11:03 2022]
+rule pyprophet_subsample:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_240.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_240.osws
+    jobid: 101
+    wildcards: sample=AAS_P2009_240
+    resources: tmpdir=/tmp
+
+
+[Wed Jun  1 13:11:03 2022]
+rule pyprophet_subsample:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_244.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_244.osws
+    jobid: 109
+    wildcards: sample=AAS_P2009_244
+    resources: tmpdir=/tmp
+
+
+[Wed Jun  1 13:11:03 2022]
+rule pyprophet_subsample:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_189.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_189.osws
+    jobid: 35
+    wildcards: sample=AAS_P2009_189
+    resources: tmpdir=/tmp
+
+
+[Wed Jun  1 13:11:03 2022]
+rule pyprophet_subsample:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_206.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_206.osws
+    jobid: 57
+    wildcards: sample=AAS_P2009_206
+    resources: tmpdir=/tmp
+
+
+[Wed Jun  1 13:11:03 2022]
+rule pyprophet_subsample:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_213.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_213.osws
+    jobid: 65
+    wildcards: sample=AAS_P2009_213
+    resources: tmpdir=/tmp
+
+
+[Wed Jun  1 13:11:03 2022]
+rule pyprophet_subsample:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_234.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_234.osws
+    jobid: 95
+    wildcards: sample=AAS_P2009_234
+    resources: tmpdir=/tmp
+
+
+[Wed Jun  1 13:11:03 2022]
+rule pyprophet_subsample:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_251.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_251.osws
+    jobid: 117
+    wildcards: sample=AAS_P2009_251
+    resources: tmpdir=/tmp
+
+
+[Wed Jun  1 13:11:03 2022]
+rule pyprophet_subsample:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_172.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_172.osws
+    jobid: 13
+    wildcards: sample=AAS_P2009_172
+    resources: tmpdir=/tmp
+
+
+[Wed Jun  1 13:11:03 2022]
+rule pyprophet_subsample:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_196.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_196.osws
+    jobid: 43
+    wildcards: sample=AAS_P2009_196
+    resources: tmpdir=/tmp
+
+
+[Wed Jun  1 13:11:03 2022]
+rule pyprophet_subsample:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_217.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_217.osws
+    jobid: 73
+    wildcards: sample=AAS_P2009_217
+    resources: tmpdir=/tmp
+
+
+[Wed Jun  1 13:11:03 2022]
+rule pyprophet_subsample:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_241.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_241.osws
+    jobid: 103
+    wildcards: sample=AAS_P2009_241
+    resources: tmpdir=/tmp
+
+[Wed Jun  1 13:11:03 2022]
+Error in rule pyprophet_subsample:
+    jobid: 89
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_231.osws
+    shell:
+        pyprophet subsample --subsample_ratio 0.1 --in /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_231.osw --out /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_231.osws
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Jun  1 13:11:03 2022]
+Error in rule pyprophet_subsample:
+    jobid: 29
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_186.osws
+    shell:
+        pyprophet subsample --subsample_ratio 0.1 --in /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_186.osw --out /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_186.osws
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Jun  1 13:11:03 2022]
+Error in rule pyprophet_subsample:
+    jobid: 59
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_207.osws
+    shell:
+        pyprophet subsample --subsample_ratio 0.1 --in /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_207.osw --out /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_207.osws
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Jun  1 13:11:03 2022]
+Error in rule pyprophet_subsample:
+    jobid: 7
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_169.osws
+    shell:
+        pyprophet subsample --subsample_ratio 0.1 --in /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_169.osw --out /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_169.osws
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Jun  1 13:11:03 2022]
+Error in rule pyprophet_subsample:
+    jobid: 37
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_190.osws
+    shell:
+        pyprophet subsample --subsample_ratio 0.1 --in /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_190.osw --out /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_190.osws
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Jun  1 13:11:03 2022]
+Error in rule pyprophet_subsample:
+    jobid: 67
+[Wed Jun  1 13:11:03 2022]
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_214.osws
+Error in rule pyprophet_subsample:
+    shell:
+        pyprophet subsample --subsample_ratio 0.1 --in /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_214.osw --out /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_214.osws
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    jobid: 21
+
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_179.osws
+    shell:
+        pyprophet subsample --subsample_ratio 0.1 --in /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_179.osw --out /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_179.osws
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Jun  1 13:11:03 2022]
+Error in rule pyprophet_subsample:
+    jobid: 45
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_197.osws
+    shell:
+        pyprophet subsample --subsample_ratio 0.1 --in /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_197.osw --out /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_197.osws
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Jun  1 13:11:03 2022]
+Error in rule pyprophet_subsample:
+    jobid: 61
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_208.osws
+    shell:
+        pyprophet subsample --subsample_ratio 0.1 --in /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_208.osw --out /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_208.osws
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Jun  1 13:11:03 2022]
+Error in rule pyprophet_subsample:
+    jobid: 97
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_235.osws
+[Wed Jun  1 13:11:03 2022]
+    shell:
+        pyprophet subsample --subsample_ratio 0.1 --in /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_235.osw --out /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_235.osws
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+Error in rule pyprophet_subsample:
+
+    jobid: 23
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_180.osws
+    shell:
+        pyprophet subsample --subsample_ratio 0.1 --in /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_180.osw --out /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_180.osws
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Jun  1 13:11:03 2022]
+Error in rule pyprophet_subsample:
+    jobid: 105
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_242.osws
+    shell:
+        pyprophet subsample --subsample_ratio 0.1 --in /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_242.osw --out /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_242.osws
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Jun  1 13:11:03 2022]
+Error in rule pyprophet_subsample:
+    jobid: 113
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_249.osws
+    shell:
+        pyprophet subsample --subsample_ratio 0.1 --in /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_249.osw --out /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_249.osws
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Jun  1 13:11:03 2022]
+Error in rule pyprophet_subsample:
+    jobid: 119
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_252.osws
+    shell:
+        pyprophet subsample --subsample_ratio 0.1 --in /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_252.osw --out /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_252.osws
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Jun  1 13:11:03 2022]
+Error in rule pyprophet_subsample:
+    jobid: 121
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_253.osws
+    shell:
+        pyprophet subsample --subsample_ratio 0.1 --in /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_253.osw --out /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_253.osws
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Jun  1 13:11:03 2022]
+Error in rule pyprophet_subsample:
+[Wed Jun  1 13:11:03 2022]
+    jobid: 17
+Error in rule pyprophet_subsample:
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_177.osws
+    jobid: 47
+    shell:
+        pyprophet subsample --subsample_ratio 0.1 --in /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_177.osw --out /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_177.osws
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_198.osws
+
+    shell:
+        pyprophet subsample --subsample_ratio 0.1 --in /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_198.osw --out /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_198.osws
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Jun  1 13:11:03 2022]
+Error in rule pyprophet_subsample:
+    jobid: 81
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_224.osws
+    shell:
+        pyprophet subsample --subsample_ratio 0.1 --in /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_224.osw --out /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_224.osws
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Jun  1 13:11:03 2022]
+Error in rule pyprophet_subsample:
+    jobid: 69
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_215.osws
+    shell:
+        pyprophet subsample --subsample_ratio 0.1 --in /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_215.osw --out /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_215.osws
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Jun  1 13:11:03 2022]
+Error in rule pyprophet_subsample:
+    jobid: 107
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_243.osws
+    shell:
+        pyprophet subsample --subsample_ratio 0.1 --in /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_243.osw --out /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_243.osws
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Jun  1 13:11:03 2022]
+Error in rule pyprophet_subsample:
+    jobid: 31
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_187.osws
+    shell:
+        pyprophet subsample --subsample_ratio 0.1 --in /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_187.osw --out /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_187.osws
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Jun  1 13:11:03 2022]
+Error in rule pyprophet_subsample:
+    jobid: 79
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_223.osws
+    shell:
+        pyprophet subsample --subsample_ratio 0.1 --in /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_223.osw --out /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_223.osws
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Jun  1 13:11:03 2022]
+Error in rule pyprophet_subsample:
+    jobid: 115
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_250.osws
+    shell:
+        pyprophet subsample --subsample_ratio 0.1 --in /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_250.osw --out /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_250.osws
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Jun  1 13:11:03 2022]
+Error in rule pyprophet_subsample:
+    jobid: 55
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_205.osws
+    shell:
+        pyprophet subsample --subsample_ratio 0.1 --in /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_205.osw --out /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_205.osws
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Jun  1 13:11:03 2022]
+Error in rule pyprophet_subsample:
+    jobid: 25
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_181.osws
+    shell:
+        pyprophet subsample --subsample_ratio 0.1 --in /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_181.osw --out /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_181.osws
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Jun  1 13:11:03 2022]
+Error in rule pyprophet_subsample:
+    jobid: 71
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_216.osws
+    shell:
+        pyprophet subsample --subsample_ratio 0.1 --in /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_216.osw --out /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_216.osws
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Jun  1 13:11:03 2022]
+Error in rule pyprophet_subsample:
+    jobid: 83
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_225.osws
+    shell:
+        pyprophet subsample --subsample_ratio 0.1 --in /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_225.osw --out /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_225.osws
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Jun  1 13:11:03 2022]
+Error in rule pyprophet_subsample:
+    jobid: 19
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_178.osws
+    shell:
+        pyprophet subsample --subsample_ratio 0.1 --in /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_178.osw --out /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_178.osws
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Jun  1 13:11:03 2022]
+[Wed Jun  1 13:11:03 2022]
+Error in rule pyprophet_subsample:
+Error in rule pyprophet_subsample:
+[Wed Jun  1 13:11:03 2022]
+[Wed Jun  1 13:11:03 2022]
+[Wed Jun  1 13:11:03 2022]
+    jobid: 41
+    jobid: 9
+Error in rule pyprophet_subsample:
+Error in rule pyprophet_subsample:
+Error in rule pyprophet_subsample:
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_195.osws
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_170.osws
+    jobid: 93
+    jobid: 65
+    jobid: 101
+    shell:
+        pyprophet subsample --subsample_ratio 0.1 --in /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_195.osw --out /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_195.osws
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    shell:
+        pyprophet subsample --subsample_ratio 0.1 --in /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_170.osw --out /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_170.osws
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_233.osws
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_213.osws
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_240.osws
+
+
+    shell:
+        pyprophet subsample --subsample_ratio 0.1 --in /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_233.osw --out /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_233.osws
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    shell:
+        pyprophet subsample --subsample_ratio 0.1 --in /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_213.osw --out /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_213.osws
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    shell:
+        pyprophet subsample --subsample_ratio 0.1 --in /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_240.osw --out /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_240.osws
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+
+
+[Wed Jun  1 13:11:03 2022]
+Error in rule pyprophet_subsample:
+    jobid: 53
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_204.osws
+    shell:
+        pyprophet subsample --subsample_ratio 0.1 --in /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_204.osw --out /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_204.osws
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Jun  1 13:11:03 2022]
+Error in rule pyprophet_subsample:
+    jobid: 49
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_199.osws
+    shell:
+        pyprophet subsample --subsample_ratio 0.1 --in /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_199.osw --out /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_199.osws
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Jun  1 13:11:03 2022]
+Error in rule pyprophet_subsample:
+    jobid: 57
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_206.osws
+    shell:
+        pyprophet subsample --subsample_ratio 0.1 --in /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_206.osw --out /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_206.osws
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Jun  1 13:11:03 2022]
+Error in rule pyprophet_subsample:
+    jobid: 117
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_251.osws
+    shell:
+        pyprophet subsample --subsample_ratio 0.1 --in /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_251.osw --out /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_251.osws
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Jun  1 13:11:03 2022]
+[Wed Jun  1 13:11:03 2022]
+Error in rule pyprophet_subsample:
+[Wed Jun  1 13:11:03 2022]
+[Wed Jun  1 13:11:03 2022]
+Error in rule pyprophet_subsample:
+    jobid: 33
+Error in rule pyprophet_subsample:
+Error in rule pyprophet_subsample:
+    jobid: 85
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_188.osws
+    jobid: 99
+    jobid: 95
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_226.osws
+    shell:
+        pyprophet subsample --subsample_ratio 0.1 --in /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_188.osw --out /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_188.osws
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_239.osws
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_234.osws
+    shell:
+        pyprophet subsample --subsample_ratio 0.1 --in /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_226.osw --out /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_226.osws
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Jun  1 13:11:03 2022]
+    shell:
+        pyprophet subsample --subsample_ratio 0.1 --in /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_239.osw --out /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_239.osws
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    shell:
+        pyprophet subsample --subsample_ratio 0.1 --in /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_234.osw --out /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_234.osws
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule pyprophet_subsample:
+
+
+    jobid: 77
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_222.osws
+    shell:
+        pyprophet subsample --subsample_ratio 0.1 --in /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_222.osw --out /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_222.osws
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Jun  1 13:11:03 2022]
+Error in rule pyprophet_subsample:
+    jobid: 91
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_232.osws
+    shell:
+        pyprophet subsample --subsample_ratio 0.1 --in /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_232.osw --out /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_232.osws
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Jun  1 13:11:03 2022]
+Error in rule pyprophet_subsample:
+    jobid: 43
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_196.osws
+    shell:
+        pyprophet subsample --subsample_ratio 0.1 --in /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_196.osw --out /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_196.osws
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Jun  1 13:11:03 2022]
+Error in rule pyprophet_subsample:
+    jobid: 13
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_172.osws
+    shell:
+        pyprophet subsample --subsample_ratio 0.1 --in /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_172.osw --out /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_172.osws
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Jun  1 13:11:03 2022]
+Error in rule pyprophet_subsample:
+    jobid: 103
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_241.osws
+    shell:
+        pyprophet subsample --subsample_ratio 0.1 --in /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_241.osw --out /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_241.osws
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Jun  1 13:11:03 2022]
+Error in rule pyprophet_subsample:
+    jobid: 11
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_171.osws
+    shell:
+        pyprophet subsample --subsample_ratio 0.1 --in /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_171.osw --out /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_171.osws
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Jun  1 13:11:03 2022]
+Error in rule pyprophet_subsample:
+    jobid: 109
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_244.osws
+    shell:
+        pyprophet subsample --subsample_ratio 0.1 --in /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_244.osw --out /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_244.osws
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Jun  1 13:11:03 2022]
+Error in rule pyprophet_subsample:
+    jobid: 73
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_217.osws
+    shell:
+        pyprophet subsample --subsample_ratio 0.1 --in /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_217.osw --out /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_217.osws
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Jun  1 13:11:03 2022]
+Error in rule pyprophet_subsample:
+    jobid: 35
+    output: /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_189.osws
+    shell:
+        pyprophet subsample --subsample_ratio 0.1 --in /srv/data1/li7186lu/data/yeast_benchmark/osw/AAS_P2009_189.osw --out /srv/data1/li7186lu/data/yeast_benchmark/baseline0601/subsampled/AAS_P2009_189.osws
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /srv/data1/li7186lu/scripts/quantification/snakemake/.snakemake/log/2022-06-01T131102.893413.snakemake.log

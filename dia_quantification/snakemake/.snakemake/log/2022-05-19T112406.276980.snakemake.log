@@ -1,0 +1,866 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 50
+Rules claiming more threads will be scaled down.
+Job stats:
+job                count    min threads    max threads
+---------------  -------  -------------  -------------
+all                    1              1              1
+fragment_qvalue       60              1              1
+merge                  1             50             50
+total                 62              1             50
+
+Select jobs to execute...
+
+[Thu May 19 11:24:06 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_215.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_215.tsv
+    jobid: 262
+    wildcards: sample=AAS_P2009_215
+    resources: tmpdir=/tmp
+
+
+[Thu May 19 11:24:06 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_242.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_242.tsv
+    jobid: 247
+    wildcards: sample=AAS_P2009_242
+    resources: tmpdir=/tmp
+
+
+[Thu May 19 11:24:06 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_207.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_207.tsv
+    jobid: 232
+    wildcards: sample=AAS_P2009_207
+    resources: tmpdir=/tmp
+
+
+[Thu May 19 11:24:06 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_208.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_208.tsv
+    jobid: 202
+    wildcards: sample=AAS_P2009_208
+    resources: tmpdir=/tmp
+
+
+[Thu May 19 11:24:06 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_243.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_243.tsv
+    jobid: 217
+    wildcards: sample=AAS_P2009_243
+    resources: tmpdir=/tmp
+
+
+[Thu May 19 11:24:06 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_196.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_196.tsv
+    jobid: 277
+    wildcards: sample=AAS_P2009_196
+    resources: tmpdir=/tmp
+
+
+[Thu May 19 11:24:06 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_205.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_205.tsv
+    jobid: 292
+    wildcards: sample=AAS_P2009_205
+    resources: tmpdir=/tmp
+
+
+[Thu May 19 11:24:06 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_249.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_249.tsv
+    jobid: 307
+    wildcards: sample=AAS_P2009_249
+    resources: tmpdir=/tmp
+
+
+[Thu May 19 11:24:06 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_222.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_222.tsv
+    jobid: 322
+    wildcards: sample=AAS_P2009_222
+    resources: tmpdir=/tmp
+
+
+[Thu May 19 11:24:06 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_186.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_186.tsv
+    jobid: 316
+    wildcards: sample=AAS_P2009_186
+    resources: tmpdir=/tmp
+
+
+[Thu May 19 11:24:06 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_235.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_235.tsv
+    jobid: 187
+    wildcards: sample=AAS_P2009_235
+    resources: tmpdir=/tmp
+
+
+[Thu May 19 11:24:06 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_253.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_253.tsv
+    jobid: 196
+    wildcards: sample=AAS_P2009_253
+    resources: tmpdir=/tmp
+
+
+[Thu May 19 11:24:06 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_172.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_172.tsv
+    jobid: 211
+    wildcards: sample=AAS_P2009_172
+    resources: tmpdir=/tmp
+
+
+[Thu May 19 11:24:06 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_198.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_198.tsv
+    jobid: 226
+    wildcards: sample=AAS_P2009_198
+    resources: tmpdir=/tmp
+
+
+[Thu May 19 11:24:06 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_251.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_251.tsv
+    jobid: 241
+    wildcards: sample=AAS_P2009_251
+    resources: tmpdir=/tmp
+
+
+[Thu May 19 11:24:06 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_224.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_224.tsv
+    jobid: 256
+    wildcards: sample=AAS_P2009_224
+    resources: tmpdir=/tmp
+
+
+[Thu May 19 11:24:06 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_241.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_241.tsv
+    jobid: 271
+    wildcards: sample=AAS_P2009_241
+    resources: tmpdir=/tmp
+
+
+[Thu May 19 11:24:06 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_223.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_223.tsv
+    jobid: 286
+    wildcards: sample=AAS_P2009_223
+    resources: tmpdir=/tmp
+
+
+[Thu May 19 11:24:06 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_195.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_195.tsv
+    jobid: 301
+    wildcards: sample=AAS_P2009_195
+    resources: tmpdir=/tmp
+
+
+[Thu May 19 11:24:06 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_226.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_226.tsv
+    jobid: 2
+    wildcards: sample=AAS_P2009_226
+    resources: tmpdir=/tmp
+
+
+[Thu May 19 11:24:06 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_190.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_190.tsv
+    jobid: 190
+    wildcards: sample=AAS_P2009_190
+    resources: tmpdir=/tmp
+
+
+[Thu May 19 11:24:06 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_181.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_181.tsv
+    jobid: 205
+    wildcards: sample=AAS_P2009_181
+    resources: tmpdir=/tmp
+
+
+[Thu May 19 11:24:06 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_252.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_252.tsv
+    jobid: 220
+    wildcards: sample=AAS_P2009_252
+    resources: tmpdir=/tmp
+
+
+[Thu May 19 11:24:06 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_189.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_189.tsv
+    jobid: 235
+    wildcards: sample=AAS_P2009_189
+    resources: tmpdir=/tmp
+
+
+[Thu May 19 11:24:06 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_233.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_233.tsv
+    jobid: 250
+    wildcards: sample=AAS_P2009_233
+    resources: tmpdir=/tmp
+
+
+[Thu May 19 11:24:06 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_179.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_179.tsv
+    jobid: 265
+    wildcards: sample=AAS_P2009_179
+    resources: tmpdir=/tmp
+
+
+[Thu May 19 11:24:06 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_250.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_250.tsv
+    jobid: 280
+    wildcards: sample=AAS_P2009_250
+    resources: tmpdir=/tmp
+
+
+[Thu May 19 11:24:06 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_178.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_178.tsv
+    jobid: 295
+    wildcards: sample=AAS_P2009_178
+    resources: tmpdir=/tmp
+
+
+[Thu May 19 11:24:06 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_240.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_240.tsv
+    jobid: 310
+    wildcards: sample=AAS_P2009_240
+    resources: tmpdir=/tmp
+
+
+[Thu May 19 11:24:06 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_213.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_213.tsv
+    jobid: 325
+    wildcards: sample=AAS_P2009_213
+    resources: tmpdir=/tmp
+
+
+[Thu May 19 11:24:06 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_204.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_204.tsv
+    jobid: 319
+    wildcards: sample=AAS_P2009_204
+    resources: tmpdir=/tmp
+
+
+[Thu May 19 11:24:06 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_177.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_177.tsv
+    jobid: 334
+    wildcards: sample=AAS_P2009_177
+    resources: tmpdir=/tmp
+
+
+[Thu May 19 11:24:06 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_199.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_199.tsv
+    jobid: 199
+    wildcards: sample=AAS_P2009_199
+    resources: tmpdir=/tmp
+
+
+[Thu May 19 11:24:06 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_234.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_234.tsv
+    jobid: 214
+    wildcards: sample=AAS_P2009_234
+    resources: tmpdir=/tmp
+
+
+[Thu May 19 11:24:06 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_216.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_216.tsv
+    jobid: 229
+    wildcards: sample=AAS_P2009_216
+    resources: tmpdir=/tmp
+
+
+[Thu May 19 11:24:06 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_197.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_197.tsv
+    jobid: 244
+    wildcards: sample=AAS_P2009_197
+    resources: tmpdir=/tmp
+
+
+[Thu May 19 11:24:06 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_206.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_206.tsv
+    jobid: 259
+    wildcards: sample=AAS_P2009_206
+    resources: tmpdir=/tmp
+
+
+[Thu May 19 11:24:06 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_232.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_232.tsv
+    jobid: 274
+    wildcards: sample=AAS_P2009_232
+    resources: tmpdir=/tmp
+
+
+[Thu May 19 11:24:06 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_170.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_170.tsv
+    jobid: 289
+    wildcards: sample=AAS_P2009_170
+    resources: tmpdir=/tmp
+
+
+[Thu May 19 11:24:06 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_231.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_231.tsv
+    jobid: 304
+    wildcards: sample=AAS_P2009_231
+    resources: tmpdir=/tmp
+
+
+[Thu May 19 11:24:06 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_188.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_188.tsv
+    jobid: 268
+    wildcards: sample=AAS_P2009_188
+    resources: tmpdir=/tmp
+
+
+[Thu May 19 11:24:06 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_214.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_214.tsv
+    jobid: 283
+    wildcards: sample=AAS_P2009_214
+    resources: tmpdir=/tmp
+
+
+[Thu May 19 11:24:06 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_187.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_187.tsv
+    jobid: 298
+    wildcards: sample=AAS_P2009_187
+    resources: tmpdir=/tmp
+
+
+[Thu May 19 11:24:06 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_169.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_169.tsv
+    jobid: 313
+    wildcards: sample=AAS_P2009_169
+    resources: tmpdir=/tmp
+
+
+[Thu May 19 11:24:06 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_185.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_185.tsv
+    jobid: 343
+    wildcards: sample=AAS_P2009_185
+    resources: tmpdir=/tmp
+
+
+[Thu May 19 11:24:06 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_244.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_244.tsv
+    jobid: 193
+    wildcards: sample=AAS_P2009_244
+    resources: tmpdir=/tmp
+
+
+[Thu May 19 11:24:06 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_217.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_217.tsv
+    jobid: 208
+    wildcards: sample=AAS_P2009_217
+    resources: tmpdir=/tmp
+
+
+[Thu May 19 11:24:06 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_225.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_225.tsv
+    jobid: 223
+    wildcards: sample=AAS_P2009_225
+    resources: tmpdir=/tmp
+
+
+[Thu May 19 11:24:06 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_180.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_180.tsv
+    jobid: 238
+    wildcards: sample=AAS_P2009_180
+    resources: tmpdir=/tmp
+
+
+[Thu May 19 11:24:06 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_171.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_171.tsv
+    jobid: 253
+    wildcards: sample=AAS_P2009_171
+    resources: tmpdir=/tmp
+
+[Thu May 19 11:24:11 2022]
+Error in rule fragment_qvalue:
+    jobid: 277
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_196.tsv
+    shell:
+        pip install -U numba;python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/predict.py -i /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_196.tsv -c /srv/data1/li7186lu/data/classifier/models/qcutoff.pkl -s /srv/data1/li7186lu/data/classifier/models/standardscaler_qcutoff.pkl -o /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_196.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu May 19 11:24:12 2022]
+Error in rule fragment_qvalue:
+    jobid: 307
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_249.tsv
+    shell:
+        pip install -U numba;python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/predict.py -i /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_249.tsv -c /srv/data1/li7186lu/data/classifier/models/qcutoff.pkl -s /srv/data1/li7186lu/data/classifier/models/standardscaler_qcutoff.pkl -o /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_249.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu May 19 11:24:12 2022]
+Error in rule fragment_qvalue:
+    jobid: 220
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_252.tsv
+    shell:
+        pip install -U numba;python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/predict.py -i /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_252.tsv -c /srv/data1/li7186lu/data/classifier/models/qcutoff.pkl -s /srv/data1/li7186lu/data/classifier/models/standardscaler_qcutoff.pkl -o /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_252.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu May 19 11:24:12 2022]
+Error in rule fragment_qvalue:
+    jobid: 334
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_177.tsv
+    shell:
+        pip install -U numba;python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/predict.py -i /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_177.tsv -c /srv/data1/li7186lu/data/classifier/models/qcutoff.pkl -s /srv/data1/li7186lu/data/classifier/models/standardscaler_qcutoff.pkl -o /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_177.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu May 19 11:24:12 2022]
+Error in rule fragment_qvalue:
+    jobid: 268
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_188.tsv
+    shell:
+        pip install -U numba;python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/predict.py -i /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_188.tsv -c /srv/data1/li7186lu/data/classifier/models/qcutoff.pkl -s /srv/data1/li7186lu/data/classifier/models/standardscaler_qcutoff.pkl -o /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_188.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu May 19 11:24:13 2022]
+Error in rule fragment_qvalue:
+    jobid: 199
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_199.tsv
+    shell:
+        pip install -U numba;python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/predict.py -i /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_199.tsv -c /srv/data1/li7186lu/data/classifier/models/qcutoff.pkl -s /srv/data1/li7186lu/data/classifier/models/standardscaler_qcutoff.pkl -o /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_199.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu May 19 11:24:13 2022]
+Error in rule fragment_qvalue:
+    jobid: 316
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_186.tsv
+    shell:
+        pip install -U numba;python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/predict.py -i /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_186.tsv -c /srv/data1/li7186lu/data/classifier/models/qcutoff.pkl -s /srv/data1/li7186lu/data/classifier/models/standardscaler_qcutoff.pkl -o /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_186.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu May 19 11:24:13 2022]
+Error in rule fragment_qvalue:
+    jobid: 343
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_185.tsv
+    shell:
+        pip install -U numba;python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/predict.py -i /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_185.tsv -c /srv/data1/li7186lu/data/classifier/models/qcutoff.pkl -s /srv/data1/li7186lu/data/classifier/models/standardscaler_qcutoff.pkl -o /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_185.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu May 19 11:24:13 2022]
+Error in rule fragment_qvalue:
+    jobid: 241
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_251.tsv
+    shell:
+        pip install -U numba;python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/predict.py -i /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_251.tsv -c /srv/data1/li7186lu/data/classifier/models/qcutoff.pkl -s /srv/data1/li7186lu/data/classifier/models/standardscaler_qcutoff.pkl -o /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_251.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu May 19 11:24:13 2022]
+Error in rule fragment_qvalue:
+    jobid: 298
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_187.tsv
+    shell:
+        pip install -U numba;python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/predict.py -i /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_187.tsv -c /srv/data1/li7186lu/data/classifier/models/qcutoff.pkl -s /srv/data1/li7186lu/data/classifier/models/standardscaler_qcutoff.pkl -o /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_187.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu May 19 11:24:13 2022]
+Error in rule fragment_qvalue:
+    jobid: 193
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_244.tsv
+    shell:
+        pip install -U numba;python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/predict.py -i /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_244.tsv -c /srv/data1/li7186lu/data/classifier/models/qcutoff.pkl -s /srv/data1/li7186lu/data/classifier/models/standardscaler_qcutoff.pkl -o /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_244.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu May 19 11:24:13 2022]
+Error in rule fragment_qvalue:
+    jobid: 247
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_242.tsv
+    shell:
+        pip install -U numba;python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/predict.py -i /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_242.tsv -c /srv/data1/li7186lu/data/classifier/models/qcutoff.pkl -s /srv/data1/li7186lu/data/classifier/models/standardscaler_qcutoff.pkl -o /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_242.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu May 19 11:24:13 2022]
+Error in rule fragment_qvalue:
+    jobid: 274
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_232.tsv
+    shell:
+        pip install -U numba;python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/predict.py -i /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_232.tsv -c /srv/data1/li7186lu/data/classifier/models/qcutoff.pkl -s /srv/data1/li7186lu/data/classifier/models/standardscaler_qcutoff.pkl -o /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_232.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu May 19 11:24:13 2022]
+Error in rule fragment_qvalue:
+    jobid: 286
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_223.tsv
+[Thu May 19 11:24:13 2022]
+[Thu May 19 11:24:13 2022]
+    shell:
+        pip install -U numba;python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/predict.py -i /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_223.tsv -c /srv/data1/li7186lu/data/classifier/models/qcutoff.pkl -s /srv/data1/li7186lu/data/classifier/models/standardscaler_qcutoff.pkl -o /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_223.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+Error in rule fragment_qvalue:
+Error in rule fragment_qvalue:
+
+    jobid: 319
+    jobid: 250
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_204.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_233.tsv
+    shell:
+        pip install -U numba;python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/predict.py -i /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_204.tsv -c /srv/data1/li7186lu/data/classifier/models/qcutoff.pkl -s /srv/data1/li7186lu/data/classifier/models/standardscaler_qcutoff.pkl -o /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_204.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    shell:
+        pip install -U numba;python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/predict.py -i /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_233.tsv -c /srv/data1/li7186lu/data/classifier/models/qcutoff.pkl -s /srv/data1/li7186lu/data/classifier/models/standardscaler_qcutoff.pkl -o /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_233.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+
+[Thu May 19 11:24:13 2022]
+Error in rule fragment_qvalue:
+    jobid: 262
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_215.tsv
+    shell:
+        pip install -U numba;python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/predict.py -i /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_215.tsv -c /srv/data1/li7186lu/data/classifier/models/qcutoff.pkl -s /srv/data1/li7186lu/data/classifier/models/standardscaler_qcutoff.pkl -o /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_215.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu May 19 11:24:13 2022]
+Error in rule fragment_qvalue:
+    jobid: 292
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_205.tsv
+    shell:
+        pip install -U numba;python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/predict.py -i /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_205.tsv -c /srv/data1/li7186lu/data/classifier/models/qcutoff.pkl -s /srv/data1/li7186lu/data/classifier/models/standardscaler_qcutoff.pkl -o /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_205.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu May 19 11:24:13 2022]
+Error in rule fragment_qvalue:
+    jobid: 229
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_216.tsv
+    shell:
+        pip install -U numba;python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/predict.py -i /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_216.tsv -c /srv/data1/li7186lu/data/classifier/models/qcutoff.pkl -s /srv/data1/li7186lu/data/classifier/models/standardscaler_qcutoff.pkl -o /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_216.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu May 19 11:24:13 2022]
+Error in rule fragment_qvalue:
+    jobid: 280
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_250.tsv
+    shell:
+        pip install -U numba;python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/predict.py -i /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_250.tsv -c /srv/data1/li7186lu/data/classifier/models/qcutoff.pkl -s /srv/data1/li7186lu/data/classifier/models/standardscaler_qcutoff.pkl -o /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_250.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu May 19 11:24:13 2022]
+Error in rule fragment_qvalue:
+    jobid: 313
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_169.tsv
+    shell:
+        pip install -U numba;python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/predict.py -i /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_169.tsv -c /srv/data1/li7186lu/data/classifier/models/qcutoff.pkl -s /srv/data1/li7186lu/data/classifier/models/standardscaler_qcutoff.pkl -o /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_169.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu May 19 11:24:13 2022]
+Error in rule fragment_qvalue:
+    jobid: 283
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_214.tsv
+    shell:
+        pip install -U numba;python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/predict.py -i /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_214.tsv -c /srv/data1/li7186lu/data/classifier/models/qcutoff.pkl -s /srv/data1/li7186lu/data/classifier/models/standardscaler_qcutoff.pkl -o /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_214.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu May 19 11:24:13 2022]
+Error in rule fragment_qvalue:
+    jobid: 211
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_172.tsv
+    shell:
+        pip install -U numba;python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/predict.py -i /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_172.tsv -c /srv/data1/li7186lu/data/classifier/models/qcutoff.pkl -s /srv/data1/li7186lu/data/classifier/models/standardscaler_qcutoff.pkl -o /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_172.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu May 19 11:24:13 2022]
+Error in rule fragment_qvalue:
+    jobid: 322
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_222.tsv
+    shell:
+        pip install -U numba;python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/predict.py -i /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_222.tsv -c /srv/data1/li7186lu/data/classifier/models/qcutoff.pkl -s /srv/data1/li7186lu/data/classifier/models/standardscaler_qcutoff.pkl -o /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_222.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+[Thu May 19 11:24:13 2022]
+
+Error in rule fragment_qvalue:
+    jobid: 325
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_213.tsv
+    shell:
+        pip install -U numba;python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/predict.py -i /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_213.tsv -c /srv/data1/li7186lu/data/classifier/models/qcutoff.pkl -s /srv/data1/li7186lu/data/classifier/models/standardscaler_qcutoff.pkl -o /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_213.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu May 19 11:24:13 2022]
+Error in rule fragment_qvalue:
+    jobid: 205
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_181.tsv
+[Thu May 19 11:24:13 2022]
+    shell:
+        pip install -U numba;python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/predict.py -i /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_181.tsv -c /srv/data1/li7186lu/data/classifier/models/qcutoff.pkl -s /srv/data1/li7186lu/data/classifier/models/standardscaler_qcutoff.pkl -o /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_181.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+[Thu May 19 11:24:13 2022]
+Error in rule fragment_qvalue:
+
+Error in rule fragment_qvalue:
+    jobid: 310
+    jobid: 253
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_240.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_171.tsv
+    shell:
+        pip install -U numba;python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/predict.py -i /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_240.tsv -c /srv/data1/li7186lu/data/classifier/models/qcutoff.pkl -s /srv/data1/li7186lu/data/classifier/models/standardscaler_qcutoff.pkl -o /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_240.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    shell:
+        pip install -U numba;python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/predict.py -i /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_171.tsv -c /srv/data1/li7186lu/data/classifier/models/qcutoff.pkl -s /srv/data1/li7186lu/data/classifier/models/standardscaler_qcutoff.pkl -o /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_171.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+
+[Thu May 19 11:24:13 2022]
+Error in rule fragment_qvalue:
+    jobid: 238
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_180.tsv
+    shell:
+        pip install -U numba;python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/predict.py -i /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_180.tsv -c /srv/data1/li7186lu/data/classifier/models/qcutoff.pkl -s /srv/data1/li7186lu/data/classifier/models/standardscaler_qcutoff.pkl -o /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_180.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu May 19 11:24:13 2022]
+Error in rule fragment_qvalue:
+    jobid: 226
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_198.tsv
+    shell:
+        pip install -U numba;python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/predict.py -i /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_198.tsv -c /srv/data1/li7186lu/data/classifier/models/qcutoff.pkl -s /srv/data1/li7186lu/data/classifier/models/standardscaler_qcutoff.pkl -o /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_198.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu May 19 11:24:13 2022]
+Error in rule fragment_qvalue:
+    jobid: 2
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_226.tsv
+    shell:
+        pip install -U numba;python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/predict.py -i /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_226.tsv -c /srv/data1/li7186lu/data/classifier/models/qcutoff.pkl -s /srv/data1/li7186lu/data/classifier/models/standardscaler_qcutoff.pkl -o /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_226.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu May 19 11:24:13 2022]
+Error in rule fragment_qvalue:
+    jobid: 265
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_179.tsv
+    shell:
+        pip install -U numba;python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/predict.py -i /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_179.tsv -c /srv/data1/li7186lu/data/classifier/models/qcutoff.pkl -s /srv/data1/li7186lu/data/classifier/models/standardscaler_qcutoff.pkl -o /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_179.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu May 19 11:24:13 2022]
+Error in rule fragment_qvalue:
+    jobid: 214
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_234.tsv
+    shell:
+        pip install -U numba;python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/predict.py -i /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_234.tsv -c /srv/data1/li7186lu/data/classifier/models/qcutoff.pkl -s /srv/data1/li7186lu/data/classifier/models/standardscaler_qcutoff.pkl -o /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_234.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu May 19 11:24:13 2022]
+[Thu May 19 11:24:13 2022]
+Error in rule fragment_qvalue:
+Error in rule fragment_qvalue:
+    jobid: 289
+    jobid: 232
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_170.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_207.tsv
+    shell:
+        pip install -U numba;python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/predict.py -i /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_170.tsv -c /srv/data1/li7186lu/data/classifier/models/qcutoff.pkl -s /srv/data1/li7186lu/data/classifier/models/standardscaler_qcutoff.pkl -o /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_170.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    shell:
+        pip install -U numba;python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/predict.py -i /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_207.tsv -c /srv/data1/li7186lu/data/classifier/models/qcutoff.pkl -s /srv/data1/li7186lu/data/classifier/models/standardscaler_qcutoff.pkl -o /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_207.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+
+[Thu May 19 11:24:13 2022]
+Error in rule fragment_qvalue:
+    jobid: 271
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_241.tsv
+    shell:
+        pip install -U numba;python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/predict.py -i /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_241.tsv -c /srv/data1/li7186lu/data/classifier/models/qcutoff.pkl -s /srv/data1/li7186lu/data/classifier/models/standardscaler_qcutoff.pkl -o /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_241.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu May 19 11:24:13 2022]
+Error in rule fragment_qvalue:
+    jobid: 235
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_189.tsv
+    shell:
+        pip install -U numba;python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/predict.py -i /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_189.tsv -c /srv/data1/li7186lu/data/classifier/models/qcutoff.pkl -s /srv/data1/li7186lu/data/classifier/models/standardscaler_qcutoff.pkl -o /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_189.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu May 19 11:24:13 2022]
+Error in rule fragment_qvalue:
+    jobid: 244
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_197.tsv
+    shell:
+        pip install -U numba;python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/predict.py -i /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_197.tsv -c /srv/data1/li7186lu/data/classifier/models/qcutoff.pkl -s /srv/data1/li7186lu/data/classifier/models/standardscaler_qcutoff.pkl -o /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_197.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu May 19 11:24:13 2022]
+Error in rule fragment_qvalue:
+    jobid: 301
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_195.tsv
+    shell:
+        pip install -U numba;python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/predict.py -i /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_195.tsv -c /srv/data1/li7186lu/data/classifier/models/qcutoff.pkl -s /srv/data1/li7186lu/data/classifier/models/standardscaler_qcutoff.pkl -o /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_195.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu May 19 11:24:13 2022]
+Error in rule fragment_qvalue:
+    jobid: 202
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_208.tsv
+    shell:
+        pip install -U numba;python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/predict.py -i /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_208.tsv -c /srv/data1/li7186lu/data/classifier/models/qcutoff.pkl -s /srv/data1/li7186lu/data/classifier/models/standardscaler_qcutoff.pkl -o /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_208.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu May 19 11:24:13 2022]
+Error in rule fragment_qvalue:
+    jobid: 217
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_243.tsv
+    shell:
+        pip install -U numba;python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/predict.py -i /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_243.tsv -c /srv/data1/li7186lu/data/classifier/models/qcutoff.pkl -s /srv/data1/li7186lu/data/classifier/models/standardscaler_qcutoff.pkl -o /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_243.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu May 19 11:24:13 2022]
+Error in rule fragment_qvalue:
+    jobid: 256
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_224.tsv
+    shell:
+        pip install -U numba;python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/predict.py -i /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_224.tsv -c /srv/data1/li7186lu/data/classifier/models/qcutoff.pkl -s /srv/data1/li7186lu/data/classifier/models/standardscaler_qcutoff.pkl -o /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_224.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu May 19 11:24:13 2022]
+Error in rule fragment_qvalue:
+    jobid: 304
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_231.tsv
+    shell:
+        pip install -U numba;python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/predict.py -i /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_231.tsv -c /srv/data1/li7186lu/data/classifier/models/qcutoff.pkl -s /srv/data1/li7186lu/data/classifier/models/standardscaler_qcutoff.pkl -o /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_231.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu May 19 11:24:13 2022]
+Error in rule fragment_qvalue:
+    jobid: 259
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_206.tsv
+    shell:
+        pip install -U numba;python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/predict.py -i /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_206.tsv -c /srv/data1/li7186lu/data/classifier/models/qcutoff.pkl -s /srv/data1/li7186lu/data/classifier/models/standardscaler_qcutoff.pkl -o /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_206.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu May 19 11:24:13 2022]
+Error in rule fragment_qvalue:
+    jobid: 295
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_178.tsv
+    shell:
+        pip install -U numba;python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/predict.py -i /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_178.tsv -c /srv/data1/li7186lu/data/classifier/models/qcutoff.pkl -s /srv/data1/li7186lu/data/classifier/models/standardscaler_qcutoff.pkl -o /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_178.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu May 19 11:24:13 2022]
+Error in rule fragment_qvalue:
+    jobid: 187
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_235.tsv
+[Thu May 19 11:24:13 2022]
+    shell:
+        pip install -U numba;python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/predict.py -i /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_235.tsv -c /srv/data1/li7186lu/data/classifier/models/qcutoff.pkl -s /srv/data1/li7186lu/data/classifier/models/standardscaler_qcutoff.pkl -o /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_235.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+Error in rule fragment_qvalue:
+
+    jobid: 223
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_225.tsv
+    shell:
+        pip install -U numba;python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/predict.py -i /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_225.tsv -c /srv/data1/li7186lu/data/classifier/models/qcutoff.pkl -s /srv/data1/li7186lu/data/classifier/models/standardscaler_qcutoff.pkl -o /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_225.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Thu May 19 11:24:13 2022]
+[Thu May 19 11:24:13 2022]
+Error in rule fragment_qvalue:
+Error in rule fragment_qvalue:
+    jobid: 190
+    jobid: 208
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_190.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_217.tsv
+    shell:
+        pip install -U numba;python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/predict.py -i /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_190.tsv -c /srv/data1/li7186lu/data/classifier/models/qcutoff.pkl -s /srv/data1/li7186lu/data/classifier/models/standardscaler_qcutoff.pkl -o /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_190.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    shell:
+        pip install -U numba;python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/predict.py -i /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_217.tsv -c /srv/data1/li7186lu/data/classifier/models/qcutoff.pkl -s /srv/data1/li7186lu/data/classifier/models/standardscaler_qcutoff.pkl -o /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_217.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+
+[Thu May 19 11:24:13 2022]
+Error in rule fragment_qvalue:
+    jobid: 196
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_253.tsv
+    shell:
+        pip install -U numba;python /srv/data1/li7186lu/scripts/quantification/classifier_filter_fragments/predict.py -i /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_253.tsv -c /srv/data1/li7186lu/data/classifier/models/qcutoff.pkl -s /srv/data1/li7186lu/data/classifier/models/standardscaler_qcutoff.pkl -o /srv/data1/li7186lu/data/yeast_benchmark/classifier/median/gscore/qvalue/AAS_P2009_253.tsv
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /srv/data1/li7186lu/scripts/quantification/snakemake/.snakemake/log/2022-05-19T112406.276980.snakemake.log

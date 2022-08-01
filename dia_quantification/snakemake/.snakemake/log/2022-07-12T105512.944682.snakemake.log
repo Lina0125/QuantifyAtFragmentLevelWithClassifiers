@@ -1,0 +1,1549 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 50
+Rules claiming more threads will be scaled down.
+Job stats:
+job                     count    min threads    max threads
+--------------------  -------  -------------  -------------
+all                         1              1              1
+fragment_qvalue            60              1              1
+merge                       1             50             50
+preprocess_merge_osw       60              1              1
+total                     122              1             50
+
+Select jobs to execute...
+
+[Tue Jul 12 10:55:13 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_235.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_235.tsv
+    jobid: 127
+    wildcards: sample=AAS_P2009_235
+    resources: tmpdir=/tmp
+
+
+[Tue Jul 12 10:55:13 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_249.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_249.tsv
+    jobid: 247
+    wildcards: sample=AAS_P2009_249
+    resources: tmpdir=/tmp
+
+
+[Tue Jul 12 10:55:13 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_196.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_196.tsv
+    jobid: 217
+    wildcards: sample=AAS_P2009_196
+    resources: tmpdir=/tmp
+
+
+[Tue Jul 12 10:55:13 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_222.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_222.tsv
+    jobid: 262
+    wildcards: sample=AAS_P2009_222
+    resources: tmpdir=/tmp
+
+
+[Tue Jul 12 10:55:13 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_243.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_243.tsv
+    jobid: 157
+    wildcards: sample=AAS_P2009_243
+    resources: tmpdir=/tmp
+
+
+[Tue Jul 12 10:55:13 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_207.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_207.tsv
+    jobid: 172
+    wildcards: sample=AAS_P2009_207
+    resources: tmpdir=/tmp
+
+
+[Tue Jul 12 10:55:13 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_215.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_215.tsv
+    jobid: 202
+    wildcards: sample=AAS_P2009_215
+    resources: tmpdir=/tmp
+
+
+[Tue Jul 12 10:55:13 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_208.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_208.tsv
+    jobid: 142
+    wildcards: sample=AAS_P2009_208
+    resources: tmpdir=/tmp
+
+
+[Tue Jul 12 10:55:13 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_242.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_242.tsv
+    jobid: 187
+    wildcards: sample=AAS_P2009_242
+    resources: tmpdir=/tmp
+
+
+[Tue Jul 12 10:55:13 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_205.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_205.tsv
+    jobid: 232
+    wildcards: sample=AAS_P2009_205
+    resources: tmpdir=/tmp
+
+
+[Tue Jul 12 10:55:13 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_224.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_224.tsv
+    jobid: 196
+    wildcards: sample=AAS_P2009_224
+    resources: tmpdir=/tmp
+
+
+[Tue Jul 12 10:55:13 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_223.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_223.tsv
+    jobid: 226
+    wildcards: sample=AAS_P2009_223
+    resources: tmpdir=/tmp
+
+
+[Tue Jul 12 10:55:13 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_198.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_198.tsv
+    jobid: 166
+    wildcards: sample=AAS_P2009_198
+    resources: tmpdir=/tmp
+
+
+[Tue Jul 12 10:55:13 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_251.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_251.tsv
+    jobid: 181
+    wildcards: sample=AAS_P2009_251
+    resources: tmpdir=/tmp
+
+
+[Tue Jul 12 10:55:13 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_241.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_241.tsv
+    jobid: 211
+    wildcards: sample=AAS_P2009_241
+    resources: tmpdir=/tmp
+
+
+[Tue Jul 12 10:55:13 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_186.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_186.tsv
+    jobid: 256
+    wildcards: sample=AAS_P2009_186
+    resources: tmpdir=/tmp
+
+
+[Tue Jul 12 10:55:13 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_239.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_239.tsv
+    jobid: 271
+    wildcards: sample=AAS_P2009_239
+    resources: tmpdir=/tmp
+
+
+[Tue Jul 12 10:55:13 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_253.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_253.tsv
+    jobid: 136
+    wildcards: sample=AAS_P2009_253
+    resources: tmpdir=/tmp
+
+
+[Tue Jul 12 10:55:13 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_172.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_172.tsv
+    jobid: 151
+    wildcards: sample=AAS_P2009_172
+    resources: tmpdir=/tmp
+
+
+[Tue Jul 12 10:55:13 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_195.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_195.tsv
+    jobid: 241
+    wildcards: sample=AAS_P2009_195
+    resources: tmpdir=/tmp
+
+
+[Tue Jul 12 10:55:13 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_233.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_233.tsv
+    jobid: 190
+    wildcards: sample=AAS_P2009_233
+    resources: tmpdir=/tmp
+
+
+[Tue Jul 12 10:55:13 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_226.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_226.tsv
+    jobid: 3
+    wildcards: sample=AAS_P2009_226
+    resources: tmpdir=/tmp
+
+
+[Tue Jul 12 10:55:13 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_250.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_250.tsv
+    jobid: 220
+    wildcards: sample=AAS_P2009_250
+    resources: tmpdir=/tmp
+
+
+[Tue Jul 12 10:55:13 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_252.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_252.tsv
+    jobid: 160
+    wildcards: sample=AAS_P2009_252
+    resources: tmpdir=/tmp
+
+
+[Tue Jul 12 10:55:13 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_189.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_189.tsv
+    jobid: 175
+    wildcards: sample=AAS_P2009_189
+    resources: tmpdir=/tmp
+
+
+[Tue Jul 12 10:55:13 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_179.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_179.tsv
+    jobid: 205
+    wildcards: sample=AAS_P2009_179
+    resources: tmpdir=/tmp
+
+
+[Tue Jul 12 10:55:13 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_240.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_240.tsv
+    jobid: 250
+    wildcards: sample=AAS_P2009_240
+    resources: tmpdir=/tmp
+
+
+[Tue Jul 12 10:55:13 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_213.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_213.tsv
+    jobid: 265
+    wildcards: sample=AAS_P2009_213
+    resources: tmpdir=/tmp
+
+
+[Tue Jul 12 10:55:13 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_190.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_190.tsv
+    jobid: 130
+    wildcards: sample=AAS_P2009_190
+    resources: tmpdir=/tmp
+
+
+[Tue Jul 12 10:55:13 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_178.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_178.tsv
+    jobid: 235
+    wildcards: sample=AAS_P2009_178
+    resources: tmpdir=/tmp
+
+
+[Tue Jul 12 10:55:13 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_231.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_231.tsv
+    jobid: 244
+    wildcards: sample=AAS_P2009_231
+    resources: tmpdir=/tmp
+
+
+[Tue Jul 12 10:55:13 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_216.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_216.tsv
+    jobid: 169
+    wildcards: sample=AAS_P2009_216
+    resources: tmpdir=/tmp
+
+
+[Tue Jul 12 10:55:13 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_197.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_197.tsv
+    jobid: 184
+    wildcards: sample=AAS_P2009_197
+    resources: tmpdir=/tmp
+
+
+[Tue Jul 12 10:55:13 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_232.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_232.tsv
+    jobid: 214
+    wildcards: sample=AAS_P2009_232
+    resources: tmpdir=/tmp
+
+
+[Tue Jul 12 10:55:13 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_204.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_204.tsv
+    jobid: 259
+    wildcards: sample=AAS_P2009_204
+    resources: tmpdir=/tmp
+
+
+[Tue Jul 12 10:55:13 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_177.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_177.tsv
+    jobid: 274
+    wildcards: sample=AAS_P2009_177
+    resources: tmpdir=/tmp
+
+
+[Tue Jul 12 10:55:13 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_199.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_199.tsv
+    jobid: 139
+    wildcards: sample=AAS_P2009_199
+    resources: tmpdir=/tmp
+
+
+[Tue Jul 12 10:55:13 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_234.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_234.tsv
+    jobid: 154
+    wildcards: sample=AAS_P2009_234
+    resources: tmpdir=/tmp
+
+
+[Tue Jul 12 10:55:13 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_206.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_206.tsv
+    jobid: 199
+    wildcards: sample=AAS_P2009_206
+    resources: tmpdir=/tmp
+
+
+[Tue Jul 12 10:55:13 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_170.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_170.tsv
+    jobid: 229
+    wildcards: sample=AAS_P2009_170
+    resources: tmpdir=/tmp
+
+
+[Tue Jul 12 10:55:13 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_171.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_171.tsv
+    jobid: 193
+    wildcards: sample=AAS_P2009_171
+    resources: tmpdir=/tmp
+
+
+[Tue Jul 12 10:55:13 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_217.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_217.tsv
+    jobid: 148
+    wildcards: sample=AAS_P2009_217
+    resources: tmpdir=/tmp
+
+
+[Tue Jul 12 10:55:13 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_214.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_214.tsv
+    jobid: 223
+    wildcards: sample=AAS_P2009_214
+    resources: tmpdir=/tmp
+
+
+[Tue Jul 12 10:55:13 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_187.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_187.tsv
+    jobid: 238
+    wildcards: sample=AAS_P2009_187
+    resources: tmpdir=/tmp
+
+
+[Tue Jul 12 10:55:13 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_169.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_169.tsv
+    jobid: 253
+    wildcards: sample=AAS_P2009_169
+    resources: tmpdir=/tmp
+
+
+[Tue Jul 12 10:55:13 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_225.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_225.tsv
+    jobid: 163
+    wildcards: sample=AAS_P2009_225
+    resources: tmpdir=/tmp
+
+
+[Tue Jul 12 10:55:13 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_180.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_180.tsv
+    jobid: 178
+    wildcards: sample=AAS_P2009_180
+    resources: tmpdir=/tmp
+
+
+[Tue Jul 12 10:55:13 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_188.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_188.tsv
+    jobid: 208
+    wildcards: sample=AAS_P2009_188
+    resources: tmpdir=/tmp
+
+
+[Tue Jul 12 10:55:13 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_244.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_244.tsv
+    jobid: 133
+    wildcards: sample=AAS_P2009_244
+    resources: tmpdir=/tmp
+
+
+[Tue Jul 12 10:55:13 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_181.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_181.tsv
+    jobid: 145
+    wildcards: sample=AAS_P2009_181
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:55:57 2022]
+Finished job 178.
+1 of 122 steps (1%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:55:57 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_180.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_180.tsv
+    jobid: 177
+    wildcards: sample=AAS_P2009_180
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:55:57 2022]
+Finished job 187.
+2 of 122 steps (2%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:55:57 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_242.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_242.tsv
+    jobid: 186
+    wildcards: sample=AAS_P2009_242
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:55:59 2022]
+Finished job 145.
+3 of 122 steps (2%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:55:59 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_181.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_181.tsv
+    jobid: 144
+    wildcards: sample=AAS_P2009_181
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:01 2022]
+Finished job 208.
+4 of 122 steps (3%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:01 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_188.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_188.tsv
+    jobid: 207
+    wildcards: sample=AAS_P2009_188
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:02 2022]
+Finished job 196.
+5 of 122 steps (4%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:02 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_224.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_224.tsv
+    jobid: 195
+    wildcards: sample=AAS_P2009_224
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:05 2022]
+Finished job 205.
+6 of 122 steps (5%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:05 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_179.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_179.tsv
+    jobid: 204
+    wildcards: sample=AAS_P2009_179
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:06 2022]
+Finished job 271.
+7 of 122 steps (6%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:06 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_239.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_239.tsv
+    jobid: 270
+    wildcards: sample=AAS_P2009_239
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:06 2022]
+Finished job 247.
+8 of 122 steps (7%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:06 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_249.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_249.tsv
+    jobid: 246
+    wildcards: sample=AAS_P2009_249
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:08 2022]
+Finished job 154.
+9 of 122 steps (7%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:08 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_234.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_234.tsv
+    jobid: 153
+    wildcards: sample=AAS_P2009_234
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:09 2022]
+Finished job 148.
+10 of 122 steps (8%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:09 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_217.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_217.tsv
+    jobid: 147
+    wildcards: sample=AAS_P2009_217
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:13 2022]
+Finished job 211.
+11 of 122 steps (9%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:13 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_241.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_241.tsv
+    jobid: 210
+    wildcards: sample=AAS_P2009_241
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:13 2022]
+Finished job 181.
+12 of 122 steps (10%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:13 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_251.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_251.tsv
+    jobid: 180
+    wildcards: sample=AAS_P2009_251
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:14 2022]
+Finished job 241.
+13 of 122 steps (11%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:14 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_195.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_195.tsv
+    jobid: 240
+    wildcards: sample=AAS_P2009_195
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:14 2022]
+Finished job 265.
+14 of 122 steps (11%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:14 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_213.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_213.tsv
+    jobid: 264
+    wildcards: sample=AAS_P2009_213
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:14 2022]
+Finished job 250.
+15 of 122 steps (12%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:14 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_240.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_240.tsv
+    jobid: 249
+    wildcards: sample=AAS_P2009_240
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:14 2022]
+Finished job 136.
+16 of 122 steps (13%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:14 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_253.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_253.tsv
+    jobid: 135
+    wildcards: sample=AAS_P2009_253
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:14 2022]
+Finished job 262.
+17 of 122 steps (14%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:14 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_222.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_222.tsv
+    jobid: 261
+    wildcards: sample=AAS_P2009_222
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:15 2022]
+Finished job 259.
+18 of 122 steps (15%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:15 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_204.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_204.tsv
+    jobid: 258
+    wildcards: sample=AAS_P2009_204
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:15 2022]
+Finished job 169.
+19 of 122 steps (16%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:15 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_216.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_216.tsv
+    jobid: 168
+    wildcards: sample=AAS_P2009_216
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:15 2022]
+Finished job 127.
+20 of 122 steps (16%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:15 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_235.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_235.tsv
+    jobid: 126
+    wildcards: sample=AAS_P2009_235
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:15 2022]
+Finished job 160.
+21 of 122 steps (17%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:15 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_252.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_252.tsv
+    jobid: 159
+    wildcards: sample=AAS_P2009_252
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:16 2022]
+Finished job 142.
+22 of 122 steps (18%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:16 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_208.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_208.tsv
+    jobid: 141
+    wildcards: sample=AAS_P2009_208
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:16 2022]
+Finished job 253.
+23 of 122 steps (19%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:16 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_169.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_169.tsv
+    jobid: 252
+    wildcards: sample=AAS_P2009_169
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:16 2022]
+Finished job 214.
+24 of 122 steps (20%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:16 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_232.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_232.tsv
+    jobid: 213
+    wildcards: sample=AAS_P2009_232
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:16 2022]
+Finished job 232.
+25 of 122 steps (20%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:16 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_205.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_205.tsv
+    jobid: 231
+    wildcards: sample=AAS_P2009_205
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:16 2022]
+Finished job 151.
+26 of 122 steps (21%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:16 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_172.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_172.tsv
+    jobid: 150
+    wildcards: sample=AAS_P2009_172
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:17 2022]
+Finished job 217.
+27 of 122 steps (22%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:17 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_196.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_196.tsv
+    jobid: 216
+    wildcards: sample=AAS_P2009_196
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:17 2022]
+Finished job 130.
+28 of 122 steps (23%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:17 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_190.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_190.tsv
+    jobid: 129
+    wildcards: sample=AAS_P2009_190
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:17 2022]
+Finished job 238.
+29 of 122 steps (24%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:17 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_187.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_187.tsv
+    jobid: 237
+    wildcards: sample=AAS_P2009_187
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:18 2022]
+Finished job 157.
+30 of 122 steps (25%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:18 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_243.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_243.tsv
+    jobid: 156
+    wildcards: sample=AAS_P2009_243
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:18 2022]
+Finished job 223.
+31 of 122 steps (25%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:18 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_214.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_214.tsv
+    jobid: 222
+    wildcards: sample=AAS_P2009_214
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:18 2022]
+Finished job 256.
+32 of 122 steps (26%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:18 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_186.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_186.tsv
+    jobid: 255
+    wildcards: sample=AAS_P2009_186
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:18 2022]
+Finished job 244.
+33 of 122 steps (27%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:18 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_231.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_231.tsv
+    jobid: 243
+    wildcards: sample=AAS_P2009_231
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:18 2022]
+Finished job 172.
+34 of 122 steps (28%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:18 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_207.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_207.tsv
+    jobid: 171
+    wildcards: sample=AAS_P2009_207
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:18 2022]
+Finished job 274.
+35 of 122 steps (29%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:18 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_177.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_177.tsv
+    jobid: 273
+    wildcards: sample=AAS_P2009_177
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:18 2022]
+Finished job 202.
+36 of 122 steps (30%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:18 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_215.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_215.tsv
+    jobid: 201
+    wildcards: sample=AAS_P2009_215
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:18 2022]
+Finished job 226.
+37 of 122 steps (30%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:18 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_223.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_223.tsv
+    jobid: 225
+    wildcards: sample=AAS_P2009_223
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:19 2022]
+Finished job 193.
+38 of 122 steps (31%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:19 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_171.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_171.tsv
+    jobid: 192
+    wildcards: sample=AAS_P2009_171
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:19 2022]
+Finished job 163.
+39 of 122 steps (32%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:19 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_225.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_225.tsv
+    jobid: 162
+    wildcards: sample=AAS_P2009_225
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:19 2022]
+Finished job 235.
+40 of 122 steps (33%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:19 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_178.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_178.tsv
+    jobid: 234
+    wildcards: sample=AAS_P2009_178
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:19 2022]
+Finished job 220.
+41 of 122 steps (34%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:19 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_250.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_250.tsv
+    jobid: 219
+    wildcards: sample=AAS_P2009_250
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:19 2022]
+Finished job 229.
+42 of 122 steps (34%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:19 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_170.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_170.tsv
+    jobid: 228
+    wildcards: sample=AAS_P2009_170
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:19 2022]
+Finished job 139.
+43 of 122 steps (35%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:19 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_199.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_199.tsv
+    jobid: 138
+    wildcards: sample=AAS_P2009_199
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:21 2022]
+Finished job 184.
+44 of 122 steps (36%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:21 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_197.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_197.tsv
+    jobid: 183
+    wildcards: sample=AAS_P2009_197
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:21 2022]
+Finished job 190.
+45 of 122 steps (37%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:21 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_233.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_233.tsv
+    jobid: 189
+    wildcards: sample=AAS_P2009_233
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:21 2022]
+Finished job 175.
+46 of 122 steps (38%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:21 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_189.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_189.tsv
+    jobid: 174
+    wildcards: sample=AAS_P2009_189
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:21 2022]
+Finished job 199.
+47 of 122 steps (39%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:21 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_206.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_206.tsv
+    jobid: 198
+    wildcards: sample=AAS_P2009_206
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:22 2022]
+Finished job 133.
+48 of 122 steps (39%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:22 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_244.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_244.tsv
+    jobid: 132
+    wildcards: sample=AAS_P2009_244
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:22 2022]
+Finished job 3.
+49 of 122 steps (40%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:22 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_226.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_226.tsv
+    jobid: 2
+    wildcards: sample=AAS_P2009_226
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:23 2022]
+Finished job 166.
+50 of 122 steps (41%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:23 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_198.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_198.tsv
+    jobid: 165
+    wildcards: sample=AAS_P2009_198
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:24 2022]
+Finished job 177.
+51 of 122 steps (42%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:24 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_203.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_203.tsv
+    jobid: 280
+    wildcards: sample=AAS_P2009_203
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:24 2022]
+Finished job 186.
+52 of 122 steps (43%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:24 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_185.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_185.tsv
+    jobid: 283
+    wildcards: sample=AAS_P2009_185
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:26 2022]
+Finished job 144.
+53 of 122 steps (43%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:26 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_194.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_194.tsv
+    jobid: 286
+    wildcards: sample=AAS_P2009_194
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:28 2022]
+Finished job 195.
+54 of 122 steps (44%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:28 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_248.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_248.tsv
+    jobid: 268
+    wildcards: sample=AAS_P2009_248
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:31 2022]
+Finished job 204.
+55 of 122 steps (45%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:31 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_230.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_230.tsv
+    jobid: 277
+    wildcards: sample=AAS_P2009_230
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:32 2022]
+Finished job 207.
+56 of 122 steps (46%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:32 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_212.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_212.tsv
+    jobid: 289
+    wildcards: sample=AAS_P2009_212
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:32 2022]
+Finished job 246.
+57 of 122 steps (47%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:32 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_168.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_168.tsv
+    jobid: 298
+    wildcards: sample=AAS_P2009_168
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:34 2022]
+Finished job 270.
+58 of 122 steps (48%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:34 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_176.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_176.tsv
+    jobid: 295
+    wildcards: sample=AAS_P2009_176
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:34 2022]
+Finished job 153.
+59 of 122 steps (48%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:34 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_221.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_221.tsv
+    jobid: 292
+    wildcards: sample=AAS_P2009_221
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:39 2022]
+Finished job 210.
+60 of 122 steps (49%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:39 2022]
+rule preprocess_merge_osw:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/baseline/backpropagated/AAS_P2009_167.osw
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_167.tsv
+    jobid: 301
+    wildcards: sample=AAS_P2009_167
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:56:40 2022]
+Finished job 147.
+61 of 122 steps (50%) done
+[Tue Jul 12 10:56:42 2022]
+Finished job 159.
+62 of 122 steps (51%) done
+[Tue Jul 12 10:56:42 2022]
+Finished job 240.
+63 of 122 steps (52%) done
+[Tue Jul 12 10:56:43 2022]
+Finished job 168.
+64 of 122 steps (52%) done
+[Tue Jul 12 10:56:43 2022]
+Finished job 273.
+65 of 122 steps (53%) done
+[Tue Jul 12 10:56:43 2022]
+Finished job 249.
+66 of 122 steps (54%) done
+[Tue Jul 12 10:56:43 2022]
+Finished job 264.
+67 of 122 steps (55%) done
+[Tue Jul 12 10:56:43 2022]
+Finished job 261.
+68 of 122 steps (56%) done
+[Tue Jul 12 10:56:43 2022]
+Finished job 216.
+69 of 122 steps (57%) done
+[Tue Jul 12 10:56:43 2022]
+Finished job 243.
+70 of 122 steps (57%) done
+[Tue Jul 12 10:56:44 2022]
+Finished job 180.
+71 of 122 steps (58%) done
+[Tue Jul 12 10:56:44 2022]
+Finished job 258.
+72 of 122 steps (59%) done
+[Tue Jul 12 10:56:44 2022]
+Finished job 213.
+73 of 122 steps (60%) done
+[Tue Jul 12 10:56:45 2022]
+Finished job 135.
+74 of 122 steps (61%) done
+[Tue Jul 12 10:56:45 2022]
+Finished job 231.
+75 of 122 steps (61%) done
+[Tue Jul 12 10:56:45 2022]
+Finished job 228.
+76 of 122 steps (62%) done
+[Tue Jul 12 10:56:46 2022]
+Finished job 252.
+77 of 122 steps (63%) done
+[Tue Jul 12 10:56:46 2022]
+Finished job 255.
+78 of 122 steps (64%) done
+[Tue Jul 12 10:56:46 2022]
+Finished job 237.
+79 of 122 steps (65%) done
+[Tue Jul 12 10:56:47 2022]
+Finished job 150.
+80 of 122 steps (66%) done
+[Tue Jul 12 10:56:47 2022]
+Finished job 141.
+81 of 122 steps (66%) done
+[Tue Jul 12 10:56:47 2022]
+Finished job 126.
+82 of 122 steps (67%) done
+[Tue Jul 12 10:56:47 2022]
+Finished job 222.
+83 of 122 steps (68%) done
+[Tue Jul 12 10:56:47 2022]
+Finished job 225.
+84 of 122 steps (69%) done
+[Tue Jul 12 10:56:47 2022]
+Finished job 171.
+85 of 122 steps (70%) done
+[Tue Jul 12 10:56:48 2022]
+Finished job 219.
+86 of 122 steps (70%) done
+[Tue Jul 12 10:56:48 2022]
+Finished job 201.
+87 of 122 steps (71%) done
+[Tue Jul 12 10:56:48 2022]
+Finished job 129.
+88 of 122 steps (72%) done
+[Tue Jul 12 10:56:48 2022]
+Finished job 156.
+89 of 122 steps (73%) done
+[Tue Jul 12 10:56:48 2022]
+Finished job 2.
+90 of 122 steps (74%) done
+[Tue Jul 12 10:56:49 2022]
+Finished job 234.
+91 of 122 steps (75%) done
+[Tue Jul 12 10:56:49 2022]
+Finished job 162.
+92 of 122 steps (75%) done
+[Tue Jul 12 10:56:49 2022]
+Finished job 192.
+93 of 122 steps (76%) done
+[Tue Jul 12 10:56:50 2022]
+Finished job 165.
+94 of 122 steps (77%) done
+[Tue Jul 12 10:56:50 2022]
+Finished job 183.
+95 of 122 steps (78%) done
+[Tue Jul 12 10:56:50 2022]
+Finished job 138.
+96 of 122 steps (79%) done
+[Tue Jul 12 10:56:50 2022]
+Finished job 189.
+97 of 122 steps (80%) done
+[Tue Jul 12 10:56:50 2022]
+Finished job 198.
+98 of 122 steps (80%) done
+[Tue Jul 12 10:56:51 2022]
+Finished job 174.
+99 of 122 steps (81%) done
+[Tue Jul 12 10:56:51 2022]
+Finished job 132.
+100 of 122 steps (82%) done
+[Tue Jul 12 10:56:59 2022]
+Finished job 283.
+101 of 122 steps (83%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:56:59 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_185.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_185.tsv
+    jobid: 282
+    wildcards: sample=AAS_P2009_185
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:57:00 2022]
+Finished job 280.
+102 of 122 steps (84%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:57:00 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_203.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_203.tsv
+    jobid: 279
+    wildcards: sample=AAS_P2009_203
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:57:01 2022]
+Finished job 286.
+103 of 122 steps (84%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:57:01 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_194.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_194.tsv
+    jobid: 285
+    wildcards: sample=AAS_P2009_194
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:57:02 2022]
+Finished job 268.
+104 of 122 steps (85%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:57:02 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_248.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_248.tsv
+    jobid: 267
+    wildcards: sample=AAS_P2009_248
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:57:03 2022]
+Finished job 277.
+105 of 122 steps (86%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:57:03 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_230.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_230.tsv
+    jobid: 276
+    wildcards: sample=AAS_P2009_230
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:57:05 2022]
+Finished job 289.
+106 of 122 steps (87%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:57:05 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_212.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_212.tsv
+    jobid: 288
+    wildcards: sample=AAS_P2009_212
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:57:07 2022]
+Finished job 298.
+107 of 122 steps (88%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:57:07 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_168.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_168.tsv
+    jobid: 297
+    wildcards: sample=AAS_P2009_168
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:57:09 2022]
+Finished job 292.
+108 of 122 steps (89%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:57:09 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_221.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_221.tsv
+    jobid: 291
+    wildcards: sample=AAS_P2009_221
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:57:09 2022]
+Finished job 301.
+109 of 122 steps (89%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:57:09 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_167.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_167.tsv
+    jobid: 300
+    wildcards: sample=AAS_P2009_167
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:57:12 2022]
+Finished job 295.
+110 of 122 steps (90%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:57:12 2022]
+rule fragment_qvalue:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/feeding_data/AAS_P2009_176.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_176.tsv
+    jobid: 294
+    wildcards: sample=AAS_P2009_176
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 10:57:23 2022]
+Finished job 282.
+111 of 122 steps (91%) done
+[Tue Jul 12 10:57:24 2022]
+Finished job 279.
+112 of 122 steps (92%) done
+[Tue Jul 12 10:57:25 2022]
+Finished job 285.
+113 of 122 steps (93%) done
+[Tue Jul 12 10:57:26 2022]
+Finished job 267.
+114 of 122 steps (93%) done
+[Tue Jul 12 10:57:26 2022]
+Finished job 276.
+115 of 122 steps (94%) done
+[Tue Jul 12 10:57:29 2022]
+Finished job 288.
+116 of 122 steps (95%) done
+[Tue Jul 12 10:57:31 2022]
+Finished job 297.
+117 of 122 steps (96%) done
+[Tue Jul 12 10:57:32 2022]
+Finished job 300.
+118 of 122 steps (97%) done
+[Tue Jul 12 10:57:33 2022]
+Finished job 291.
+119 of 122 steps (98%) done
+[Tue Jul 12 10:57:36 2022]
+Finished job 294.
+120 of 122 steps (98%) done
+Select jobs to execute...
+
+[Tue Jul 12 10:57:36 2022]
+rule merge:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_226.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_235.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_190.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_244.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_253.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_199.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_208.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_181.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_217.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_172.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_234.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_243.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_252.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_225.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_198.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_216.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_207.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_189.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_180.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_251.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_197.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_242.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_233.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_171.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_224.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_206.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_215.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_179.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_188.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_241.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_232.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_196.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_250.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_214.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_223.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_170.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_205.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_178.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_187.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_195.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_231.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_249.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_240.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_169.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_186.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_204.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_222.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_213.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_248.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_239.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_177.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_230.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_203.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_185.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_194.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_212.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_221.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_176.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_168.tsv, /srv/data1/li7186lu/data/yeast_benchmark/classifier/scored/initial/AAS_P2009_167.tsv
+    output: /srv/data1/li7186lu/data/yeast_benchmark/classifier/results/mean/initial_mean.csv
+    jobid: 1
+    threads: 50
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 11:01:01 2022]
+Finished job 1.
+121 of 122 steps (99%) done
+Select jobs to execute...
+
+[Tue Jul 12 11:01:01 2022]
+localrule all:
+    input: /srv/data1/li7186lu/data/yeast_benchmark/classifier/results/mean/initial_mean.csv
+    jobid: 0
+    resources: tmpdir=/tmp
+
+[Tue Jul 12 11:01:01 2022]
+Finished job 0.
+122 of 122 steps (100%) done
+Complete log: /srv/data1/li7186lu/scripts/quantification/snakemake/.snakemake/log/2022-07-12T105512.944682.snakemake.log
