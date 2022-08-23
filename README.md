@@ -52,9 +52,9 @@ It is the routine workflow of  analyzing DIA data using OpenSwath.  It contains 
 
 **① OpenSwath** is used for targeted extraction of chromatogram; 
 
-**②pyProphet** is used for statistical scoring; 
+**② pyProphet** is used for statistical scoring; 
 
-**③TRIC** is used for alignment of multiple runs to generate quantitative matrix. 
+**③ TRIC** is used for alignment of multiple runs to generate quantitative matrix. 
 
 It contains 2 pipelines written with Snakemake:
 
@@ -109,11 +109,11 @@ To keep track of where classifiers came from, a training script used to generate
 
 classifier_quant.smk is written in snakemake and it contains 3 modules: 
 
-**①OpenSWATH** for chromatographic extraction
+**① OpenSWATH** for chromatographic extraction
 
-**②pyProphet** for statistical analysis data on protein and peptides level
+**② pyProphet** for statistical analysis data on protein and peptides level
 
-**③classifier_filter_fragments** python package first scores every fragment ion for precursors using generated classifiers, then the discriminate score is used to calculate q values for FDR control using gscore python package, after control FDR on fragment ion level, the optimized fragment ion population is used to quantify peptides intensity by mean, median, topN and sum. Every run is processed separately then are formed into a quantitative matrix.
+**③ classifier_filter_fragments** python package first scores every fragment ion for precursors using generated classifiers, then the discriminate score is used to calculate q values for FDR control using gscore python package, after control FDR on fragment ion level, the optimized fragment ion population is used to quantify peptides intensity by mean, median, topN and sum. Every run is processed separately then are formed into a quantitative matrix.
 
 <img src="https://github.com/Lina0125/QuantifyAtFragmentLevelWithClassifiers/blob/main/data/imgs/application.png" alt="application" style="zoom:10%; margin:auto; float:center; width:50%; text-align:center; left:30%;" />
 
