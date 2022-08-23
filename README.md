@@ -9,13 +9,13 @@ The optimized DIA data analysis consists of 3 steps, 1. The discriminant score i
 ```bash
 .
 ├── data
-│   ├── 220126_oswag_library.optimized.decoy.pqp	# Spectra library
+│   ├── 220126_oswag_library.optimized.decoy.pqp    # Spectra library
 │   ├── 220126_oswag_rt_peptides.optimized.pqp		# iRT library
 │   ├── bruduer_HFX_44win.txt						# swath window file
 │   └── openms.sif									# OpenSWATH singularity container
 ├── dia_quantification
-│   ├── classifier_filter_fragments					# Portable python package that can quantify pyProphet
-│   │   ├── filter.py								results at fragment ion level
+│   ├── classifier_filter_fragments					# Portable python package that can quantify
+│   │   ├── filter.py								pyProphet results at fragment ion level
 │   │   ├── global_quantify.py
 │   │   ├── merge_osw.py
 │   │   ├── metrics.py
