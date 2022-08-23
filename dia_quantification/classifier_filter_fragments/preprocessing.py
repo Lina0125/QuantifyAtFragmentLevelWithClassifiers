@@ -164,7 +164,7 @@ def merge_global_tables(global_osw_file, out_path=None):
 
 def data_cleaning(fp):
 
-    import numpy as np,pandas as pd
+    import numpy as np, pandas as pd
 
     print(f"Info: Loading and preprocessing {fp}")
     df = pd.read_csv(fp, sep='\t')

@@ -1,0 +1,13 @@
+libraries:
+  spectral_library: '/srv/data1/li7186lu/data/libraries/220126_oswag_library.optimized.decoy.pqp'
+  rt_library: '/srv/data1/li7186lu/data/libraries/220126_oswag_rt_peptides.optimized.pqp'
+
+base_file_paths:
+  mzml: '/srv/data1/li7186lu/data/yeast_benchmark/dia/mzml'
+  osw: '/srv/data1/li7186lu/data/yeast_benchmark/osw0325'
+
+swath_windows_file: '/srv/data1/li7186lu/data/swath_windows/bruduer_HFX_44win.txt'
+
+training_data:
+  csvs: '/srv/data1/li7186lu/data/classifier/training_data0325/split'
+  merged_csv_path: '/srv/data1/li7186lu/data/classifier/training_data0325/0323_merged_AAS_P2009_167_to_253.csv'

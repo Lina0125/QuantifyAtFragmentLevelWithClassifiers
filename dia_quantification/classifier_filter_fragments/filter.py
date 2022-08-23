@@ -3,8 +3,8 @@
 def global_align(df, template):
 
     """
-    This function align scored data back to global model to get global protein 
-    and peptide dataframe in each run.
+    This function control FDR on protein and peptide level by aligning scored data 
+    back to global model.
     """
 
     from preprocessing import merge_global_tables
@@ -17,9 +17,7 @@ def global_align(df, template):
     global_data = global_df[global_df['DECOY'] == 0]
     global_data = global_data[global_data['PROTEIN_QVALUE'] < 0.01]
     global_data = global_data[global_data['PEPTIDE_QVALUE'] < 0.01]
-
     global_data['global_index'] = global_data['PROTEIN_ACCESSION'] + global_data['MODIFIED_SEQUENCE']
-
     global_data = global_data[['global_index']]
     global_data = global_data.drop_duplicates()
 
