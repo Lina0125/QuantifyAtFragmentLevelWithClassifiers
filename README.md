@@ -72,14 +72,14 @@ It contains 2 pipelines written with Snakemake:
 
 ② pyProphet
 ```bash
-$pip install pyprophet
+pip install pyprophet
 ```
 ③ TRIC
 ```bash
-$pip install numpy
-$pip install pymzml==0.7.8
-$pip install Biopython
-$pip install msproteomicstools
+pip install numpy
+pip install pymzml==0.7.8
+pip install Biopython
+pip install msproteomicstools
 ```
 
 ④ python
@@ -99,8 +99,8 @@ $pip install msproteomicstools
 ### Usage
 
 ```bash
-$snakemake -s pyprophet_model.smk --configfile pyprophet.yml --core 50
-$snakemake -s pyprophet_feed.smk --configfile pyprophet.yml --core 50
+snakemake -s pyprophet_model.smk --configfile pyprophet.yml --core 50
+snakemake -s pyprophet_feed.smk --configfile pyprophet.yml --core 50
 ```
 
 
@@ -152,8 +152,8 @@ classifier_quant.smk is written in snakemake and it contains 3 modules:
 ### Usage:
 
 ```bash
-$snakemake -s pyprophet_model.smk --configfile pyprophet.yml --core 50
-$snakemake -s classifier_quant.smk --configfile classifier_quant.yml --core 50
+snakemake -s pyprophet_model.smk --configfile pyprophet.yml --core 50
+snakemake -s classifier_quant.smk --configfile classifier_quant.yml --core 50
 ```
 
 
