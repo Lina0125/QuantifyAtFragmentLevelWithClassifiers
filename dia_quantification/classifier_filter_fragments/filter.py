@@ -30,7 +30,7 @@ def filter_fragments(fp, template, method='mean', max_transition_qvalue=0.01, ma
 
     """
     This function align data back to global model to filter out unconfident proteins and peptides;
-    Then it filters fragment ions according to its q value, and calculate MS1 intensity using optional methods;
+    Then it filters fragment ions according to its q value, and calculate precursor intensity using optional methods;
     The rest proteins and peptides that don't have any confident fragment ions are assigned NAN on RT and intensity
     """
 
@@ -61,7 +61,7 @@ def filter_fragments(fp, template, method='mean', max_transition_qvalue=0.01, ma
     data = df[df['PEAKGROUP_QVALUE'] < max_transition_qvalue]
     data = data[data['FRAGMENT_QVALUE'] < max_fragment_qvalue]
 
-    # MS1 intensity calculation metheds and it's process
+    # Precursor intensity calculation metheds and it's process
     if method[:3] == 'top':
         topn = method
         if topn == 'top1':
