@@ -64,7 +64,7 @@ It contains 2 pipelines written with Snakemake:
 
 ***pyprophet.yml** is the configure file of generalized workflow.
 
-<img src="https://github.com/Lina0125/QuantifyAtFragmentLevelWithClassifiers/blob/main/data/imgs/generalized.png" alt="generalized" title="The stantard workflow" style="zoom30%;" >
+<img src="https://github.com/Lina0125/QuantifyAtFragmentLevelWithClassifiers/blob/main/data/imgs/generalized.png" alt="generalized" title="The stantard workflow" style="zoom30%; margin:auto; float:center" />
 
 ### Environment and software supports
 
@@ -101,7 +101,7 @@ $snakemake -s pyprophet_feed.smk --configfile pyprophet.yml --core 50
 
 To keep track of where classifiers came from, a training script used to generate results in the report is provided(build_classifiers.ipynb). The training data for building the classifier comes from the output of OpenSWATH. OpenSWATH extracts the features of transition groups from the chromatogram and stores them in the osw tables. The 12 sub-scores are used as classifying features, and the label is the target and the decoy added to the search space. The reference classifier is trained using SGD first to provide reference for the improvements. The model then improved by precision/recall trade-off, FDR control and confident learning. This script finally trained 4 models and it's corresponding standard scalers.
 
-<img src="https://github.com/Lina0125/QuantifyAtFragmentLevelWithClassifiers/blob/main/data/imgs/model_generation.png" alt="model_generation" style="zoom:30%;" />
+<img src="https://github.com/Lina0125/QuantifyAtFragmentLevelWithClassifiers/blob/main/data/imgs/model_generation.png" alt="model_generation" style="zoom:30%; margin:auto; float:center" />
 
  
 
