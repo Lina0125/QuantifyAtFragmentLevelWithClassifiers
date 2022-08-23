@@ -64,7 +64,7 @@ It contains 2 pipelines written with Snakemake:
 
 ***pyprophet.yml** is the configure file of generalized workflow.
 
-<img src="https://github.com/Lina0125/QuantifyAtFragmentLevelWithClassifiers/blob/main/data/imgs/generalized.png" alt="generalized" title="The stantard workflow" style="zoom30%; margin:auto; float:center;  width:80%; display: block; text-align:center; " />
+<img src="https://github.com/Lina0125/QuantifyAtFragmentLevelWithClassifiers/blob/main/data/imgs/generalized.png" alt="generalized" title="The stantard workflow" style="zoom30%; margin:auto; float:center; display: block; text-align:center; " />
 
 ### Environment and software supports
 
