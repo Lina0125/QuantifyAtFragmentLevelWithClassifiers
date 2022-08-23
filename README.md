@@ -68,13 +68,13 @@ It contains 2 pipelines written with Snakemake:
 
 ### Environment and software supports
 
-OpenSWATH(singularity container)
+① OpenSWATH(singularity container)
 
-pyProphet
+② pyProphet
 ```bash
 $pip install pyprophet
 ```
-TRIC
+③ TRIC
 ```bash
 $pip install numpy
 $pip install pymzml==0.7.8
@@ -82,19 +82,19 @@ $pip install Biopython
 $pip install msproteomicstools
 ```
 
-python
+④ python
 
-snakemake
+⑤ snakemake
 
 ### Inputs
 
-*.mzml
+① *.mzml
 
-swath window file
+② swath window file
 
-spectra library
+③ spectra library
 
-iRT library
+④ iRT library
 
 ### Usage
 
@@ -129,25 +129,25 @@ classifier_quant.smk is written in snakemake and it contains 3 modules:
 
 ### Environment and software supports
 
-OpenSWATH(singularity container)
+① OpenSWATH(singularity container)
 
-pyProphet
+② pyProphet
 
-python
+③ python
 
-python package: classifier_filter_fragments; gscore; numba
+④ python package: classifier_filter_fragments; gscore; numba
 
 ### Inputs
 
-*.mzml
+① *.mzml
 
-swath window file
+② swath window file
 
-spectra library
+③ spectra library
 
-iRT library
+④ iRT library
 
-classifiers
+⑤ classifiers
 
 ### Usage:
 
@@ -158,5 +158,6 @@ $snakemake -s classifier_quant.smk --configfile classifier_quant.yml --core 50
 
 
 
-Author: LINA LU	20220815
+### Author
+LINA LU	20220815
 
