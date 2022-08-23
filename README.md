@@ -64,7 +64,7 @@ It contains 2 pipelines written with Snakemake:
 
 ***pyprophet.yml** is the configure file of generalized workflow.
 
-![image-20220805213503174](https://github.com/Lina0125/QuantifyAtFragmentLevelWithClassifiers/tree/main/data/imgs/generalized.png)
+![alt text](https://github.com/Lina0125/QuantifyAtFragmentLevelWithClassifiers/tree/main/data/imgs/generalized.png)
 
 ### Environment and software supports
 
