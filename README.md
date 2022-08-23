@@ -97,7 +97,7 @@ $snakemake -s pyprophet_feed.smk --configfile pyprophet.yml --core 50
 
 
 
-## 2) Classifiers generation
+## 2. Classifiers generation
 
 To keep track of where classifiers came from, a training script used to generate results in the report is provided(build_classifiers.ipynb). The training data for building the classifier comes from the output of OpenSWATH. OpenSWATH extracts the features of transition groups from the chromatogram and stores them in the osw tables. The 12 sub-scores are used as classifying features, and the label is the target and the decoy added to the search space. The reference classifier is trained using SGD first to provide reference for the improvements. The model then improved by precision/recall trade-off, FDR control and confident learning. This script finally trained 4 models and it's corresponding standard scalers.
 
@@ -105,15 +105,15 @@ To keep track of where classifiers came from, a training script used to generate
 
  
 
-## 3) Optimized workflow
+## 3. Optimized workflow
 
 classifier_quant.smk is written in snakemake and it contains 3 modules: 
 
-1.OpenSWATH for chromatographic extraction
+**①OpenSWATH** for chromatographic extraction
 
-2.pyProphet for statistical analysis data on protein and peptides level
+**②pyProphet** for statistical analysis data on protein and peptides level
 
-3.classifier_filter_fragments python package first scores every fragment ion for precursors using generated classifiers, then the discriminate score is used to calculate q values for FDR control using gscore python package, after control FDR on fragment ion level, the optimized fragment ion population is used to quantify peptides intensity by mean, median, topN and sum. Every run is processed separately then are formed into a quantitative matrix.
+**③classifier_filter_fragments** python package first scores every fragment ion for precursors using generated classifiers, then the discriminate score is used to calculate q values for FDR control using gscore python package, after control FDR on fragment ion level, the optimized fragment ion population is used to quantify peptides intensity by mean, median, topN and sum. Every run is processed separately then are formed into a quantitative matrix.
 
 <img src="https://github.com/Lina0125/QuantifyAtFragmentLevelWithClassifiers/blob/main/data/imgs/application.png" alt="application" style="zoom:10%; margin:auto; float:center; width:50%; text-align:center; left:30%;" />
 
