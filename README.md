@@ -64,7 +64,7 @@ It contains 2 pipelines written with Snakemake:
 
 ***pyprophet.yml** is the configure file of generalized workflow.
 
-<img src="https://github.com/Lina0125/QuantifyAtFragmentLevelWithClassifiers/blob/main/data/imgs/generalized.png" alt="generalized" title="The stantard workflow" style="zoom30%; margin:auto; float:center;  width: 50%; display: block; text-align:center; " />
+<img src="https://github.com/Lina0125/QuantifyAtFragmentLevelWithClassifiers/blob/main/data/imgs/generalized.png" alt="generalized" title="The stantard workflow" style="zoom30%; margin:auto; float:center;  width:80%; display: block; text-align:center; " />
 
 ### Environment and software supports
 
@@ -115,7 +115,7 @@ classifier_quant.smk is written in snakemake and it contains 3 modules:
 
 3.classifier_filter_fragments python package first scores every fragment ion for precursors using generated classifiers, then the discriminate score is used to calculate q values for FDR control using gscore python package, after control FDR on fragment ion level, the optimized fragment ion population is used to quantify peptides intensity by mean, median, topN and sum. Every run is processed separately then are formed into a quantitative matrix.
 
-<img src="https://github.com/Lina0125/QuantifyAtFragmentLevelWithClassifiers/blob/main/data/imgs/application.png" alt="application" style="zoom:10%; margin:auto; float:center; width:40%; display: table-cell; text-align:center; left:30%;" />
+<img src="https://github.com/Lina0125/QuantifyAtFragmentLevelWithClassifiers/blob/main/data/imgs/application.png" alt="application" style="zoom:10%; margin:auto; float:center; width:50%; text-align:center; left:30%;" />
 
 
 
