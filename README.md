@@ -159,6 +159,6 @@ snakemake -s classifier_quant.smk --configfile classifier_quant.yml --core 50
 
 
 ### Author
-Lina Lu, Department of Clinical Sciences, Lund University, Klinikgatan, BMC D13, SE-22184, Lund, Sweden
+Lina Lu Department of Biology, Box 118, 221 00, Lund University, Sweden
 
 23/08/2022
