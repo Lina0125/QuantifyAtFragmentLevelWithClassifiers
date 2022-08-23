@@ -71,8 +71,16 @@ It contains 2 pipelines written with Snakemake:
 OpenSWATH(singularity container)
 
 pyProphet
-
+```bash
+$pip install pyprophet
+```
 TRIC
+```bash
+$pip install numpy
+$pip install pymzml==0.7.8
+$pip install Biopython
+$pip install msproteomicstools
+```
 
 python
 
