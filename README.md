@@ -9,35 +9,35 @@ The optimized DIA data analysis consists of 3 steps, 1. The discriminant score i
 ```bash
 .
 ├── data
-│   ├── 220126_oswag_library.optimized.decoy.pqp	# Spectra library
-│   ├── 220126_oswag_rt_peptides.optimized.pqp		# iRT library
-│   ├── bruduer_HFX_44win.txt						# swath window file
-│   └── openms.sif									# OpenSWATH singularity container
+│   ├── 220126_oswag_library.optimized.decoy.pqp    # Spectra library
+│   ├── 220126_oswag_rt_peptides.optimized.pqp	# iRT library
+│   ├── bruduer_HFX_44win.txt   # swath window file
+│   └── openms.sif  # OpenSWATH singularity container
 ├── dia_quantification
-│   ├── classifier_filter_fragments					# Portable python package that can quantify pyProphet
-│   │   ├── filter.py								results at fragment ion level
+│   ├── classifier_filter_fragments # Portable python package that can quantify
+│   │   ├── filter.py   pyProphet results at fragment ion level
 │   │   ├── global_quantify.py
 │   │   ├── merge_osw.py
 │   │   ├── metrics.py
 │   │   ├── predict.py
 │   │   └── preprocessing.py
 │   └── snakemake
-│       ├── classifier_quant.smk					# Optimized pipeline 
-│       ├── classifier_quant.yml					# Config file for optimized pipeline
-│       ├── pyprophet_feed.smk						# Standard pipeline for baseline results
-│       ├── pyprophet_model.smk						# Standard pipeline for model generation
-│       └── pyprophet.yml							# Config file for standard pipeline
-└── model_generation								# Machine learning model and training process
-    ├── models										# Trained models
+│       ├── classifier_quant.smk    # Optimized pipeline 
+│       ├── classifier_quant.yml    # Config file for optimized pipeline
+│       ├── pyprophet_feed.smk  # Standard pipeline for baseline results
+│       ├── pyprophet_model.smk # Standard pipeline for model generation
+│       └── pyprophet.yml   # Config file for standard pipeline
+└── model_generation    # Machine learning model and training process
+    ├── models  # Trained models
     │   ├── initial.pkl
     │   ├── lnl.pkl
     │   ├── precision_90.pkl
     │   ├── qvalue_cutoff.pkl
     │   ├── standardscaler_90.pkl
-    │   ├── standardscaler.pkl						# For initial and lnl classifiers
+    │   ├── standardscaler.pkl  # For initial and lnl classifiers
     │   └── standardscaler_qvalue.pkl
-    ├── build_classifiers.ipynb						# Model training process
-    └── training_data								# Training data preprocessing
+    ├── build_classifiers.ipynb # Model training process
+    └── training_data   # Training data preprocessing
         ├── classifier_training_data.smk
         ├── classifier_training_data.yml
         ├── merge_csv_files.py
