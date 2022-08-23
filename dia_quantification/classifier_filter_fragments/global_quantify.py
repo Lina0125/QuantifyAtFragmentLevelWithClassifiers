@@ -25,7 +25,7 @@ description = print(''),usage='%(prog)s -i -t -o[-h for help]')
 parser.add_argument('-i','--in_dir',type=str,required=True,help='directory to *.tsv',metavar='')
 parser.add_argument('-t','--template',type=str,required=True,help='model_global.osw',metavar='')
 parser.add_argument('-o','--output',type=str,required=True, help='path to quantitative matrix',metavar='')
-parser.add_argument('-m','--method',type=str,required=False, default='mean', help='method to choose optimal fragment(topN, mean, median, sum)',metavar='')
+parser.add_argument('-m','--method',type=str,required=False, default='top3', help='method to choose optimal fragment(topN, mean, median, sum)',metavar='')
 parser.add_argument('-q1','--transition_qvalue',type=float,required=False,default=0.01,help='max transition qvalue',metavar='')
 parser.add_argument('-q2','--fragment_qvalue',type=float,required=False,default=0.01,help='max fragment qvalue',metavar='')
 
@@ -42,4 +42,4 @@ if len(sys.argv[1:]) >= 6:
 
 else:
     parser.print_help()
-    sys.exit('\nAt least pass -i, -t, -o')
+    sys.exit('At least pass -i, -t, -o')
