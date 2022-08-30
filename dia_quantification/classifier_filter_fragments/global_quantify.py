@@ -9,7 +9,7 @@ Process each run in the following steps:
 4) Align runs to calculate RT and output quantitative matrix.
 """
 
-def filter_workflow(in_dir, template, out_path, method='mean', max_transition_qvalue=0.01, max_fragment_qvalue=0.01):
+def filter_workflow(in_dir, template, out_path, method='top3', max_transition_qvalue=0.01, max_fragment_qvalue=0.01):
 
     from main import merge_runs, align_runs
     # Conduct 1)~3)
@@ -25,7 +25,7 @@ description = print(''),usage='%(prog)s -i -t -o[-h for help]')
 parser.add_argument('-i','--in_dir',type=str,required=True,help='directory to *.tsv',metavar='')
 parser.add_argument('-t','--template',type=str,required=True,help='model_global.osw',metavar='')
 parser.add_argument('-o','--output',type=str,required=True, help='path to quantitative matrix',metavar='')
-parser.add_argument('-m','--method',type=str,required=False, default='mean', help='method to choose optimal fragment(topN, mean, median, sum)',metavar='')
+parser.add_argument('-m','--method',type=str,required=False, default='top3', help='method to choose optimal fragment(topN, mean, median, sum)',metavar='')
 parser.add_argument('-q1','--transition_qvalue',type=float,required=False,default=0.01,help='max transition qvalue',metavar='')
 parser.add_argument('-q2','--fragment_qvalue',type=float,required=False,default=0.01,help='max fragment qvalue',metavar='')
 
