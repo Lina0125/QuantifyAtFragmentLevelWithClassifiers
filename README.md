@@ -156,7 +156,8 @@ snakemake -s pyprophet_model.smk --configfile pyprophet.yml --core 50
 snakemake -s classifier_quant.smk --configfile classifier_quant.yml --core 50
 ```
 
-
+### Related:
+Read online:https://lup.lub.lu.se/student-papers/search/publication/9102925
 
 ### Author
 Lina Lu Department of Biology, Box 118, 221 00, Lund University, Sweden
